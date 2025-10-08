@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--
+		Taxonomy: 2021-03-24 (Final)
+		********************** 
+        Copyright (c) 2021 IFRS Foundation
+        All rights reserved. Reproduction and use rights are strictly limited.
+		For more information on the IFRS Foundation's copyright and the terms and conditions of use for these files, please refer to http://go.ifrs.org/IFRSTterms.
+		The IFRS Foundation has trade marks registered around the world (Marks) including 'IAS', 'IASB', the IASB logo, 'IFRIC', 'IFRS', the IFRS logo, 'IFRS for SMEs', the IFRS for SMEs logo, the 'Hexagon Device', 'International Accounting Standards', 'International Financial Reporting Standards', 'NIIF' and 'SIC'. Further details of the IFRS Foundation's Marks are available from the IFRS Foundation on request.
+        **********************
+-->
+<xsd:schema xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2021-03-24/ifrs-full" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://xbrl.ifrs.org/taxonomy/2021-03-24/ifrs-full">
+	<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+	<xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+	<xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd"/>
+	<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+	<xsd:element abstract="true" id="ifrs-full_DebtSecuritiesMember" name="DebtSecuritiesMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+	<xsd:element id="ifrs-full_FinancialAssetsAtAmortisedCost" name="FinancialAssetsAtAmortisedCost" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+	<xsd:element abstract="true" id="ifrs-full_FinancialAssetsAtAmortisedCostMember" name="FinancialAssetsAtAmortisedCostMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+	<xsd:element id="ifrs-full_FinancialAssetsAtFairValueThroughOtherComprehensiveIncome" name="FinancialAssetsAtFairValueThroughOtherComprehensiveIncome" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+	<xsd:element id="ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLoss" name="FinancialAssetsAtFairValueThroughProfitOrLoss" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+	<xsd:element id="ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLossDesignatedAsUponInitialRecognition" name="FinancialAssetsAtFairValueThroughProfitOrLossDesignatedAsUponInitialRecognition" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+	<xsd:element id="ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue" name="FinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+	<xsd:element id="ifrs-full_FinancialLiabilitiesAtAmortisedCost" name="FinancialLiabilitiesAtAmortisedCost" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+	<xsd:element abstract="true" id="ifrs-full_FinancialLiabilitiesAtAmortisedCostMember" name="FinancialLiabilitiesAtAmortisedCostMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+	<xsd:element id="ifrs-full_FinancialLiabilitiesAtFairValueThroughProfitOrLoss" name="FinancialLiabilitiesAtFairValueThroughProfitOrLoss" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+	<xsd:element id="ifrs-full_FinancialLiabilitiesAtFairValueThroughProfitOrLossDesignatedAsUponInitialRecognition" name="FinancialLiabilitiesAtFairValueThroughProfitOrLossDesignatedAsUponInitialRecognition" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+	<xsd:element id="ifrs-full_InvestmentsInSubsidiaries" name="InvestmentsInSubsidiaries" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant"/>
+	<xsd:element abstract="true" id="ifrs-full_IssuedCapitalMember" name="IssuedCapitalMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+	<xsd:element id="ifrs-full_Liabilities" name="Liabilities" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+	<xsd:element id="ifrs-full_LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale" name="LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant"/>
+	<xsd:element abstract="true" id="ifrs-full_LiabilitiesMember" name="LiabilitiesMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+	<xsd:element abstract="true" id="ifrs-full_OtherAssetsMember" name="OtherAssetsMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+	<xsd:element abstract="true" id="ifrs-full_RetainedEarningsMember" name="RetainedEarningsMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+	<xsd:element abstract="true" id="ifrs-full_SellingGeneralAndAdministrativeExpenseMember" name="SellingGeneralAndAdministrativeExpenseMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+	<xsd:element abstract="true" id="ifrs-full_SharePremiumMember" name="SharePremiumMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+</xsd:schema>
