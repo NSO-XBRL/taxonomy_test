@@ -7,7 +7,7 @@
 	<link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/npf/dic/npf_Alt_Label" xlink:type="simple" xlink:href="npf-dic.xsd#npf_Alt_Label"/>
 	<link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
 		<link:loc xlink:type="locator" xlink:href="npf-dic.xsd#npf-dic_PolnNaim_Fond" xlink:label="PolnNaim_Fond" xlink:title="PolnNaim_Fond"/>
-		<link:label xlink:type="resource" xlink:label="label_PolnNaim_Fond" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_PolnNaim_Fond" xml:lang="ru" id="label_PolnNaim_Fond">Полное фирменное наименование фонда</link:label>
+		<link:label xlink:type="resource" xlink:label="label_PolnNaim_Fond" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_PolnNaim_Fond" xml:lang="ru" id="label_PolnNaim_Fond">Полное фирменное наименование фонда ТЕСТ</link:label>
 		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PolnNaim_Fond" xlink:to="label_PolnNaim_Fond" xlink:title="label: PolnNaim_Fond to label_PolnNaim_Fond"/>
 		<link:label xlink:type="resource" xlink:label="label_PolnNaim_Fond_2" xlink:role="http://www.cbr.ru/2018/role/TechnicalLabel" xml:lang="ru" id="label_PolnNaim_Fond_2">Полное фирменное наименование фонда</link:label>
 		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="PolnNaim_Fond" xlink:to="label_PolnNaim_Fond_2"/>
