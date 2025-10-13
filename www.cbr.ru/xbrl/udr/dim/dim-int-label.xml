@@ -12,7 +12,7 @@
 		<link:loc xlink:type="locator" xlink:href="dim-int.xsd#dim-int_OsnovnyeValyutyAxis" xlink:label="OsnovnyeValyutyAxis" xlink:title="OsnovnyeValyutyAxis"/>
 		<link:label xlink:type="resource" xlink:label="label_OsnovnyeValyutyAxis" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_OsnovnyeValyutyAxis" xml:lang="en">Major currencies [axis]</link:label>
 		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OsnovnyeValyutyAxis" xlink:to="label_OsnovnyeValyutyAxis" xlink:title="label: OsnovnyeValyutyAxis to label_OsnovnyeValyutyAxis"/>
-		<link:label xlink:type="resource" xlink:label="label_OsnovnyeValyutyAxis_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_OsnovnyeValyutyAxis" xml:lang="ru">Основные валюты</link:label>
+		<link:label xlink:type="resource" xlink:label="label_OsnovnyeValyutyAxis_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_OsnovnyeValyutyAxis" xml:lang="ru">Основные валюты тест</link:label>
 		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OsnovnyeValyutyAxis" xlink:to="label_OsnovnyeValyutyAxis_2" xlink:title="label: OsnovnyeValyutyAxis to label_OsnovnyeValyutyAxis"/>
 		<link:label xlink:type="resource" xlink:label="label_OsnovnyeValyutyAxis_3" xlink:role="http://www.cbr.ru/2018/role/TechnicalLabel" xlink:title="label_OsnovnyeValyutyAxis" xml:lang="ru">Основные валюты [axis]</link:label>
 		<link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OsnovnyeValyutyAxis" xlink:to="label_OsnovnyeValyutyAxis_3" xlink:title="label: OsnovnyeValyutyAxis to label_OsnovnyeValyutyAxis"/>
