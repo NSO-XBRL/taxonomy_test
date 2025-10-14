@@ -6,7 +6,7 @@
     <tp:entryPoints>
 	 <tp:entryPoint>
 	   <tp:name>ep_JTINS_10rd_0420162_y</tp:name>      
-	   <tp:description>Общества взаимного страхования. Статистическая отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>   
+	   <tp:description>Общества взаимного страхования.Статистическая отчетность, представляемая в течение 10 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>   
 	   <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/ins/rep/2025-12-30/ep/ep_JTINS_10rd_0420162_y.xsd"/>    
 	 </tp:entryPoint>
 	 <tp:entryPoint>
