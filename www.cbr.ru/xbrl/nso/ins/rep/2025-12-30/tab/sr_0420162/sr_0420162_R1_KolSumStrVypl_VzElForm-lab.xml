@@ -261,7 +261,7 @@
     <label:label xlink:type="resource" xlink:label="label_114" xlink:role="http://www.eurofiling.info/xbrl/role/rc-code" xlink:title="label_114" xml:lang="ru" id="label_114">01.1.1.5</label:label>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="ruleNode_91_2" xlink:to="label_114" xlink:title="ruleNode_91_2 to label_114" priority="0" order="2.0"/>
     <loc xlink:type="locator" xlink:href="sr_0420162_R1_KolSumStrVypl_VzElForm-rend.xml#ruleNode_36" xlink:label="ruleNode_36" xlink:title="ruleNode_36"/>
-    <label:label xlink:type="resource" xlink:label="label_139" xlink:role="http://www.xbrl.org/2008/role/label" xlink:title="label_139" xml:lang="ru" id="label_139">Добровольное страхование жизни (кроме долевого и пенсионного страхования)</label:label>
+    <label:label xlink:type="resource" xlink:label="label_139" xlink:role="http://www.xbrl.org/2008/role/label" xlink:title="label_139" xml:lang="ru" id="label_139">Добровольное страхование жизни (кроме долевого страхования жизни и пенсионного страхования)</label:label>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="ruleNode_36" xlink:to="label_139" xlink:title="ruleNode_36 to label_139" priority="0" order="1.0"/>
     <loc xlink:type="locator" xlink:href="sr_0420162_R1_KolSumStrVypl_VzElForm-rend.xml#ruleNode_36" xlink:label="ruleNode_36_2" xlink:title="ruleNode_36_2"/>
     <label:label xlink:type="resource" xlink:label="label_140" xlink:role="http://www.eurofiling.info/xbrl/role/rc-code" xlink:title="label_140" xml:lang="ru" id="label_140">01</label:label>
@@ -683,6 +683,9 @@
     <loc xlink:type="locator" xlink:href="sr_0420162_R1_KolSumStrVypl_VzElForm-rend.xml#ruleNode_33" xlink:label="ruleNode_33_2" xlink:title="ruleNode_33_2"/>
     <label:label xlink:type="resource" xlink:label="label_10" xlink:role="http://www.eurofiling.info/xbrl/role/rc-code" xlink:title="label_10" xml:lang="ru" id="label_10">04.2.8.9.1</label:label>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="ruleNode_33_2" xlink:to="label_10" xlink:title="ruleNode_33_2 to label_10" priority="0" order="2.0"/>
+    <loc xlink:type="locator" xlink:href="sr_0420162_R1_KolSumStrVypl_VzElForm-rend.xml#ruleNode_33" xlink:label="ruleNode_33" xlink:title="ruleNode_33"/>
+    <label:label xlink:type="resource" xlink:label="label_9" xlink:role="http://www.xbrl.org/2008/role/label" xlink:title="label" xml:lang="ru" id="label_9">Добровольное страхование гражданской ответственности арбитражных управляющих</label:label>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="ruleNode_33" xlink:to="label_9" xlink:title="ruleNode to label" priority="0" order="3.0"/>
     <loc xlink:type="locator" xlink:href="sr_0420162_R1_KolSumStrVypl_VzElForm-rend.xml#ruleNode_175" xlink:label="ruleNode_175" xlink:title="ruleNode_175"/>
     <label:label xlink:type="resource" xlink:label="label_301" xlink:role="http://www.xbrl.org/2008/role/label" xlink:title="label_301" xml:lang="ru" id="label_301">Добровольное страхование гражданской ответственности иных лиц за неисполнение или ненадлежащее исполнение обязательств по договору</label:label>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="ruleNode_175" xlink:to="label_301" xlink:title="ruleNode_175 to label_301" priority="0" order="1.0"/>

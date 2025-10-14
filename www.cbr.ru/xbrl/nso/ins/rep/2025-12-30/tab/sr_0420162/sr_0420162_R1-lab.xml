@@ -37,7 +37,7 @@
     <label:label xlink:type="resource" xlink:label="label_173" xlink:role="http://www.xbrl.org/2008/role/label" xlink:title="label" xml:lang="ru" id="label_173">Прочее страхование жизни</label:label>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="ruleNode_146_2" xlink:to="label_173" xlink:title="ruleNode to label" priority="0" order="1.0"/>
     <loc xlink:type="locator" xlink:href="sr_0420162_R1-rend.xml#ruleNode_78" xlink:label="ruleNode_105" xlink:title="ruleNode_105"/>
-    <label:label xlink:type="resource" xlink:label="label_4" xlink:role="http://www.xbrl.org/2008/role/label" xlink:title="label_4" xml:lang="ru" id="label_4">Добровольное страхование жизни (кроме долевого и пенсионного страхования)</label:label>
+    <label:label xlink:type="resource" xlink:label="label_4" xlink:role="http://www.xbrl.org/2008/role/label" xlink:title="label_4" xml:lang="ru" id="label_4">Добровольное страхование жизни (кроме долевого страхования жизни и пенсионного страхования)</label:label>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="ruleNode_105" xlink:to="label_4" xlink:title="ruleNode_105 to label_4" priority="0" order="1.0"/>
     <loc xlink:type="locator" xlink:href="sr_0420162_R1-rend.xml#ruleNode_78" xlink:label="ruleNode_105_2" xlink:title="ruleNode_105_2"/>
     <label:label xlink:type="resource" xlink:label="label_113" xlink:role="http://www.eurofiling.info/xbrl/role/rc-code" xlink:title="label" xml:lang="ru" id="label_113">01</label:label>
@@ -655,7 +655,7 @@
     <label:label xlink:type="resource" xlink:label="label_556" xlink:role="http://www.eurofiling.info/xbrl/role/rc-code" xlink:title="label" xml:lang="ru" id="label_556">04.2.8.6</label:label>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="ruleNode_68_2" xlink:to="label_556" xlink:title="ruleNode to label" priority="0" order="2.0"/>
     <loc xlink:type="locator" xlink:href="sr_0420162_R1-rend.xml#ruleNode_62" xlink:label="ruleNode_62" xlink:title="ruleNode_62"/>
-    <label:label xlink:type="resource" xlink:label="label_5" xlink:role="http://www.xbrl.org/2008/role/label" xlink:title="label_5" xml:lang="ru" id="label_5">Страхование арбитражных управляющих</label:label>
+    <label:label xlink:type="resource" xlink:label="label_5" xlink:role="http://www.xbrl.org/2008/role/label" xlink:title="label_5" xml:lang="ru" id="label_5">Добровольное страхование гражданской ответственности арбитражных управляющих</label:label>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/element-label" xlink:from="ruleNode_62" xlink:to="label_5" xlink:title="ruleNode_62 to label_5" priority="0" order="1.0"/>
     <loc xlink:type="locator" xlink:href="sr_0420162_R1-rend.xml#ruleNode_62" xlink:label="ruleNode_62_2" xlink:title="ruleNode_62_2"/>
     <label:label xlink:type="resource" xlink:label="label_6" xlink:role="http://www.eurofiling.info/xbrl/role/rc-code" xlink:title="label_6" xml:lang="ru" id="label_6">04.2.8.9.1</label:label>
