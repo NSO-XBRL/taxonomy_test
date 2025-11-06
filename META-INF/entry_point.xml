@@ -1678,18 +1678,18 @@
 <NFOType>OPR_OIP</NFOType>
 <ReportType>2rd</ReportType>
 <ReportPeriodType>r</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420XXX_nr_2rd.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420727_nr_2rd.xsd</PathToXsd>
 <NFOTypeRus>Операторы инвестиционных платформ</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 2 рабочих дней (только форма 0420XXX)</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 2 рабочих дней (только форма 0420727)</ReportTypeRus>
 <ReportPeriodTypeRus>Нерегулярная отчетность</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
 <NFOType>OPR_OIP</NFOType>
 <ReportType>2rd</ReportType>
 <ReportPeriodType>r</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420XXX_nr_2rd_pril.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420727_nr_2rd_pril.xsd</PathToXsd>
 <NFOTypeRus>Операторы инвестиционных платформ</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 2 рабочих дней (только приложение к форме 0420XXX)</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 2 рабочих дней (только приложение к форме 0420727)</ReportTypeRus>
 <ReportPeriodTypeRus>Нерегулярная отчетность</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
@@ -1723,18 +1723,18 @@
 <NFOType>OPR_OIS_OOCZFA</NFOType>
 <ReportType>2rd</ReportType>
 <ReportPeriodType>r</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420YYY_nr_2rd.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420725_nr_2rd.xsd</PathToXsd>
 <NFOTypeRus>Операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 2 рабочих дней (только форма 0420YYY)</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 2 рабочих дней (только форма 0420725)</ReportTypeRus>
 <ReportPeriodTypeRus>Нерегулярная отчетность</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
 <NFOType>OPR_OIS_OOCZFA</NFOType>
 <ReportType>2rd</ReportType>
 <ReportPeriodType>r</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420YYY_nr_2rd_pril.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420725_nr_2rd_pril.xsd</PathToXsd>
 <NFOTypeRus>Операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 2 рабочих дней (только приложение к форме 0420YYY)</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 2 рабочих дней (только приложение к форме 0420725)</ReportTypeRus>
 <ReportPeriodTypeRus>Нерегулярная отчетность</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
@@ -1768,18 +1768,18 @@
 <NFOType>OPR</NFOType>
 <ReportType>15rd</ReportType>
 <ReportPeriodType>q</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420ZZZ_q_y_15rd.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420726_q_y_15rd.xsd</PathToXsd>
 <NFOTypeRus>Операторы инвестиционных платформ, операторы финансовых платформ, операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 15 рабочих дней (только форма 0420ZZZ)</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 15 рабочих дней (только форма 0420726)</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец квартала (кроме 4-го)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
 <NFOType>OPR</NFOType>
 <ReportType>15rd</ReportType>
 <ReportPeriodType>y</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420ZZZ_q_y_15rd.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/operatory/rep/2025-12-30/ep/ep_nso_oper_0420726_q_y_15rd.xsd</PathToXsd>
 <NFOTypeRus>Операторы инвестиционных платформ, операторы финансовых платформ, операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 15 рабочих дней (только форма 0420ZZZ)</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 15 рабочих дней (только форма 0420726)</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец года, квартала (4-го)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
