@@ -560,11 +560,11 @@
 </EntryPoint>
 <EntryPoint>
 <NFOType>NPF</NFOType>
-<ReportType>45d</ReportType>
+<ReportType>27rd</ReportType>
 <ReportPeriodType>y</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_y_45d.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_y_27rd.xsd</PathToXsd>
 <NFOTypeRus>Негосударственные пенсионные фонды</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 45 календарных дней (только формы 0420251 и 0420264)</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 27 рабочих дней (только формы 0420251 и 0420264)</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>

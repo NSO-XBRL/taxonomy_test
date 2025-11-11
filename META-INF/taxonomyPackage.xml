@@ -490,9 +490,9 @@
       <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_nr_nd.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
-      <tp:name>ep_nso_npf_y_45d</tp:name>      
-      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 45 календарных дней (только формы 0420251 и 0420264). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
-      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_y_45d.xsd"/>    
+      <tp:name>ep_nso_npf_y_27rd</tp:name>      
+      <tp:description>Негосударственные пенсионные фонды. Надзорная отчетность, представляемая в течение 27 рабочих дней (только формы 0420251 и 0420264). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/npf/rep/2025-12-30/ep/ep_nso_npf_y_27rd.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
       <tp:name>support_ep_all_nso_npf</tp:name>      
