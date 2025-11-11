@@ -6,8 +6,9 @@
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/tab/sr_0420522" schemaLocation="../tab/sr_0420522/sr_0420522.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/tab/sr_0420527" schemaLocation="../tab/sr_0420527/sr_0420527.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/tab/sr_sved_otch_org" schemaLocation="../tab/sr_sved_otch_org/sr_sved_otch_org.xsd"/>
+  <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/tab/sr_soprovod" schemaLocation="../../../../nfo/rep/2025-12-30/tab/sr_soprovod/sr_soprovod.xsd"/>
+  <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/tab/sr_ks" schemaLocation="../../../../nfo/rep/2025-12-30/tab/sr_ks/sr_ks.xsd"/>
   <xsd:import namespace="http://xbrl.org/2010/message" schemaLocation="http://www.xbrl.org/2010/generic-message.xsd"/>
   <xsd:import namespace="http://xbrl.org/2010/message/validation" schemaLocation="http://www.xbrl.org/2010/validation-message.xsd"/>
   <xsd:import namespace="http://xbrl.org/2016/assertion-severity" schemaLocation="http://www.xbrl.org/2016/assertion-severity.xsd"/>
-  <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/tab/sr_soprovod" schemaLocation="../../../../nfo/rep/2025-12-30/tab/sr_soprovod/sr_soprovod.xsd"/>
 </xsd:schema>

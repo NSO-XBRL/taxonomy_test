@@ -34,7 +34,6 @@
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/tab/sr_nfo_7" schemaLocation="../../../../nfo/rep/2025-12-30/tab/sr_nfo_7/sr_nfo_7.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/tab/sr_nfo_7_2" schemaLocation="../../../../nfo/rep/2025-12-30/tab/sr_nfo_7_2/sr_nfo_7_2.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/tab/sr_nfo_8" schemaLocation="../../../../nfo/rep/2025-12-30/tab/sr_nfo_8/sr_nfo_8.xsd"/>
-  <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/tab/sr_nfo_9_obr" schemaLocation="../../../../nfo/rep/2025-12-30/tab/sr_nfo_9_obr/sr_nfo_9_obr.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/tab/sr_sved_otch_org" schemaLocation="../tab/sr_sved_otch_org/sr_sved_otch_org.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/tab/sr_soprovod" schemaLocation="../../../../nfo/rep/2025-12-30/tab/sr_soprovod/sr_soprovod.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/tab/sr_ks" schemaLocation="../../../../nfo/rep/2025-12-30/tab/sr_ks/sr_ks.xsd"/>
