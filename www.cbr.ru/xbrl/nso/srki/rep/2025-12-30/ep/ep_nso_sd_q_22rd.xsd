@@ -9,4 +9,5 @@
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/tab/sr_0420873" schemaLocation="../tab/sr_0420873/sr_0420873.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/tab/sr_soprovod_inf" schemaLocation="../tab/sr_soprovod_inf/sr_soprovod_inf.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/tab/sr_soprovod" schemaLocation="../../../../nfo/rep/2025-12-30/tab/sr_soprovod/sr_soprovod.xsd"/>
+  <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2025-12-30/tab/sr_ks" schemaLocation="../../../../nfo/rep/2025-12-30/tab/sr_ks/sr_ks.xsd"/>
 </xsd:schema>
