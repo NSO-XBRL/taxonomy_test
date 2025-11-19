@@ -137,11 +137,11 @@
 </EntryPoint>
 <EntryPoint>
 <NFOType>AIFUK</NFOType>
-<ReportType>90d</ReportType>
+<ReportType>57rd</ReportType>
 <ReportPeriodType>y</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_y_90d.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_y_57rd.xsd</PathToXsd>
 <NFOTypeRus>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 90 календарных дней</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 57 рабочих дней</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
