@@ -4,7 +4,7 @@
   <link:roleRef roleURI="http://www.cbr.ru/2018/role/AlternativeLabel" xlink:type="simple" xlink:href="../../../../../../udr/dim/dim-int.xsd#AlternativeLabel"/>
   <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/nfo/dic/Alt_label_4" xlink:type="simple" xlink:href="../../../../../nfo/dic/nfo-dic.xsd#Alt_label_4"/>
   <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/nfo/dic/Alt_label_1" xlink:type="simple" xlink:href="../../../../../nfo/dic/nfo-dic.xsd#Alt_label_1"/>
-  <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/tab/sr_0420861_r3" xlink:type="simple" xlink:href="sr_0420861_ex_R4.xsd#sr_0420861_r3"/>
+  <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/tab/sr_0420861_r3" xlink:type="simple" xlink:href="sr_0420861_ex_r4.xsd#sr_0420861_r3"/>
   <link:presentationLink xlink:type="extended" xlink:role="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/tab/sr_0420861_r3">
     <link:loc xlink:type="locator" xlink:href="../../../../dic/srki-dic.xsd#srki-dic_SluzhebnAbstract" xlink:label="SluzhebnAbstract" xlink:title="SluzhebnAbstract"/>
     <link:loc xlink:type="locator" xlink:href="http://www.eurofiling.info/eu/fr/xbrl/ext/model.xsd#hyp" xlink:label="hyp" xlink:title="hyp"/>
