@@ -550,9 +550,9 @@
       <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_y_22rd.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
-      <tp:name>ep_nso_aif_uk_y_90d</tp:name>      
-      <tp:description>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 90 календарных дней. Отчетность на конец года</tp:description>      
-      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_y_90d.xsd"/>    
+      <tp:name>ep_nso_aif_uk_y_57rd</tp:name>      
+      <tp:description>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 57 рабочих дней. Отчетность на конец года</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_y_57rd.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
       <tp:name>ep_nso_aif_uk_y_57rd_spod</tp:name>      
@@ -606,7 +606,7 @@
 	</tp:entryPoint>
 	<tp:entryPoint>
      <tp:name>ep_nso_uk_y_31d</tp:name>
-	 <tp:description>Только  управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 31 календарного дня (только форма 0420523). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>
+	 <tp:description>Только управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов. Надзорная отчетность, представляемая в течение 31 календарного дня (только форма 0420523). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>
 	 <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_uk_y_31d.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
@@ -626,7 +626,7 @@
 	</tp:entryPoint>
 	<tp:entryPoint>      
       <tp:name>ep_nso_sd_m_q_y_aif_pif_kval_5rd</tp:name>      
-      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 5 рабочих дней. Ежедневная отчетность (только 0420872) (для представления информации по АИФ (ПИФ), акции (паи) которых предназначены для квалифицированных инвесторов)</tp:description>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 5 рабочих дней. Отчетность на конец месяца, квартала, года (все месяцы) (только 0420872) (для представления информации по АИФ (ПИФ), акции (паи) которых предназначены для квалифицированных инвесторов)</tp:description>      
       <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_m_q_y_aif_pif_kval_5rd.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
@@ -641,13 +641,18 @@
 	</tp:entryPoint>
 	<tp:entryPoint>      
       <tp:name>ep_nso_sd_m_q_y_10rd</tp:name>      
-      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 10 рабочих дней (кроме 0420863). Отчетность на конец месяца, квартала, года (все месяцы)</tp:description>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 10 рабочих дней (кроме 0420863, 0420876). Отчетность на конец месяца, квартала, года (все месяцы)</tp:description>      
       <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_m_q_y_10rd.xsd"/>    
 	</tp:entryPoint>
     <tp:entryPoint>      
       <tp:name>ep_nso_sd_0420863_m_q_y_10rd</tp:name>      
       <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 10 рабочих дней (только 0420863). Отчетность на конец месяца, квартала, года (все месяцы)</tp:description>      
       <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_0420863_m_q_y_10rd.xsd"/>    
+	</tp:entryPoint>
+	<tp:entryPoint>      
+      <tp:name>ep_nso_sd_0420876_m_q_y_10rd</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 10 рабочих дней (только 0420876). Отчетность на конец месяца, квартала, года (все месяцы)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_0420876_m_q_y_10rd.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
       <tp:name>ep_nso_sd_q_22rd</tp:name>      
@@ -663,6 +668,11 @@
       <tp:name>ep_nso_sd_0420861_y_27rd</tp:name>      
       <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 27 рабочих дней (только форма 0420861 Раздел 4). Отчетность на конец года (4 квартала)</tp:description>      
       <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_0420861_y_27rd.xsd"/>    
+    </tp:entryPoint>
+	<tp:entryPoint> 	
+      <tp:name>ep_nso_sd_0420877_y_57rd</tp:name>      
+      <tp:description>Специализированные депозитарии. Надзорная отчетность, представляемая в течение 57 рабочих дней (только форма 0420877). Отчетность на конец года (4 квартала)</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_0420877_y_57rd.xsd"/>    
     </tp:entryPoint>
     <tp:entryPoint>      
       <tp:name>ep_nso_sd_ned_m_5rd</tp:name>      

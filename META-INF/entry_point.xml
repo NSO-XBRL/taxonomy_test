@@ -137,11 +137,11 @@
 </EntryPoint>
 <EntryPoint>
 <NFOType>AIFUK</NFOType>
-<ReportType>90d</ReportType>
+<ReportType>57rd</ReportType>
 <ReportPeriodType>y</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_y_90d.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/uk/rep/2025-12-30/ep/ep_nso_aif_uk_y_57rd.xsd</PathToXsd>
 <NFOTypeRus>Акционерные инвестиционные фонды, управляющие компании инвестиционных фондов, паевых инвестиционных фондов и негосударственных пенсионных фондов</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 90 календарных дней</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 57 рабочих дней</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
@@ -1005,7 +1005,7 @@
 <ReportPeriodType>m</ReportPeriodType>
 <PathToXsd>../www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_m_q_y_10rd.xsd</PathToXsd>
 <NFOTypeRus>Специализированные депозитарии</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 10 рабочих дней (кроме 0420863)</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 10 рабочих дней (кроме 0420863, 0420876)</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
@@ -1014,7 +1014,7 @@
 <ReportPeriodType>q</ReportPeriodType>
 <PathToXsd>../www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_m_q_y_10rd.xsd</PathToXsd>
 <NFOTypeRus>Специализированные депозитарии</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 10 рабочих дней (кроме 0420863)</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 10 рабочих дней (кроме 0420863, 0420876)</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец месяца (март, июнь, сентябрь), квартала (кроме 4-го)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
@@ -1023,7 +1023,7 @@
 <ReportPeriodType>y</ReportPeriodType>
 <PathToXsd>../www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_m_q_y_10rd.xsd</PathToXsd>
 <NFOTypeRus>Специализированные депозитарии</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 10 рабочих дней (кроме 0420863)</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 10 рабочих дней (кроме 0420863, 0420876)</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
@@ -1055,6 +1055,33 @@
 </EntryPoint>
 <EntryPoint>
 <NFOType>SD</NFOType>
+<ReportType>10rd</ReportType>
+<ReportPeriodType>m</ReportPeriodType>
+<PathToXsd>../www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_0420876_m_q_y_10rd.xsd</PathToXsd>
+<NFOTypeRus>Специализированные депозитарии</NFOTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 10 рабочих дней (только 0420876)</ReportTypeRus>
+<ReportPeriodTypeRus>Отчетность на конец месяца (кроме марта, июня, сентября, декабря)</ReportPeriodTypeRus>
+</EntryPoint>
+<EntryPoint>
+<NFOType>SD</NFOType>
+<ReportType>10rd</ReportType>
+<ReportPeriodType>q</ReportPeriodType>
+<PathToXsd>../www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_0420876_m_q_y_10rd.xsd</PathToXsd>
+<NFOTypeRus>Специализированные депозитарии</NFOTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 10 рабочих дней (только 0420876)</ReportTypeRus>
+<ReportPeriodTypeRus>Отчетность на конец месяца (март, июнь, сентябрь), квартала (кроме 4-го)</ReportPeriodTypeRus>
+</EntryPoint>
+<EntryPoint>
+<NFOType>SD</NFOType>
+<ReportType>10rd</ReportType>
+<ReportPeriodType>y</ReportPeriodType>
+<PathToXsd>../www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_0420876_m_q_y_10rd.xsd</PathToXsd>
+<NFOTypeRus>Специализированные депозитарии</NFOTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 10 рабочих дней (только 0420876)</ReportTypeRus>
+<ReportPeriodTypeRus>Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</ReportPeriodTypeRus>
+</EntryPoint>
+<EntryPoint>
+<NFOType>SD</NFOType>
 <ReportType>22rd</ReportType>
 <ReportPeriodType>q</ReportPeriodType>
 <PathToXsd>../www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_q_22rd.xsd</PathToXsd>
@@ -1078,6 +1105,15 @@
 <PathToXsd>../www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_0420861_y_27rd.xsd</PathToXsd>
 <NFOTypeRus>Специализированные депозитарии</NFOTypeRus>
 <ReportTypeRus>Надзорная отчетность, представляемая в течение 27 рабочих дней (только форма 0420861 Раздел 4)</ReportTypeRus>
+<ReportPeriodTypeRus>Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</ReportPeriodTypeRus>
+</EntryPoint>
+<EntryPoint>
+<NFOType>SD</NFOType>
+<ReportType>57rd</ReportType>
+<ReportPeriodType>y</ReportPeriodType>
+<PathToXsd>../www.cbr.ru/xbrl/nso/srki/rep/2025-12-30/ep/ep_nso_sd_0420877_y_57rd.xsd</PathToXsd>
+<NFOTypeRus>Специализированные депозитарии</NFOTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 57 рабочих дней (только форма 0420877)</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
