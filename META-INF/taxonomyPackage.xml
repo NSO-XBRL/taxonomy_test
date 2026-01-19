@@ -2,7 +2,7 @@
 <tp:taxonomyPackage xmlns:tp="http://xbrl.org/2016/taxonomy-package" xml:lang="ru">
   <tp:identifier>http://www.cbr.ru/xbrl/2026-11-15.zip</tp:identifier>
   <tp:name>Таксономия XBRL Банка России версия 8 (предварительная)</tp:name>
-  <tp:version>8.0</tp:version>
+  <tp:version>8</tp:version>
     <tp:entryPoints>
 	 <tp:entryPoint>
 	   <tp:name>ep_JTINS_10rd_0420162_y</tp:name>      
@@ -375,9 +375,9 @@
 	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/ep/ep_nso_brk_m_q_y_15rd_ods.xsd"/>
 	</tp:entryPoint>	
 	<tp:entryPoint>      
-	  <tp:name>ep_nso_nfo_y_120d</tp:name>      
-	  <tp:description>Некредитные финансовые организации, имеющие обязанность по представлению в Банк России годовой консолидированной финансовой отчетности. Годовая консолидированная финансовая отчетность, включая сопроводительное письмо (для целей представления пакета годовой консолидированной финансовой отчетности).Отчетность на конец года (4 квартал) (декабрь)</tp:description>      
-	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/ep/ep_nso_nfo_y_120d.xsd"/>    
+	  <tp:name>ep_nso_nfo_y_78rd</tp:name>      
+	  <tp:description>Некредитные финансовые организации, имеющие обязанность по представлению в Банк России годовой консолидированной финансовой отчетности. Годовая консолидированная финансовая отчетность, включая сопроводительную информацию (для целей представления пакета годовой консолидированной финансовой отчетности).Отчетность на конец года (4 квартал) (декабрь)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/ep/ep_nso_nfo_y_78rd.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
 	  <tp:name>support_ep_all_nso_nfo</tp:name>      
