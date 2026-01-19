@@ -5744,4 +5744,8 @@
   <xsd:element name="OKUD0420960R1P1_1Member" id="mem-int_OKUD0420960R1P1_1Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="OKUD0420960R1P1_2Member" id="mem-int_OKUD0420960R1P1_2Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="OKUD0420960R2Member" id="mem-int_OKUD0420960R2Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="CZFA7176UPunkt1Podp1_1Punkt4Member" id="mem-int_CZFA7176UPunkt1Podp1_1Punkt4Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="CZFA7176UPunkt1PodpOt1_2Po1_5Member" id="mem-int_CZFA7176UPunkt1PodpOt1_2Po1_5Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="CZFA7176UPunkt2Member" id="mem-int_CZFA7176UPunkt2Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="CZFAZaIskl7176UPunkt1_2_4Member" id="mem-int_CZFAZaIskl7176UPunkt1_2_4Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
 </xsd:schema>
