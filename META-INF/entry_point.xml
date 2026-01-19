@@ -344,11 +344,11 @@
 </EntryPoint>
 <EntryPoint>
 <NFOType>NFO_GKFO</NFOType>
-<ReportType>120kd_y</ReportType>
+<ReportType>78rd_y</ReportType>
 <ReportPeriodType>y</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/ep/ep_nso_nfo_y_120d.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/ep/ep_nso_nfo_y_78rd.xsd</PathToXsd>
 <NFOTypeRus>Некредитные финансовые организации, имеющие обязанность по представлению в Банк России годовой консолидированной финансовой отчетности</NFOTypeRus>
-<ReportTypeRus>Годовая консолидированная финансовая отчетность, включая сопроводительное письмо (для целей представления пакета годовой консолидированной финансовой отчетности)</ReportTypeRus>
+<ReportTypeRus>Годовая консолидированная финансовая отчетность, включая сопроводительную информацию (для целей представления пакета годовой консолидированной финансовой отчетности)</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
