@@ -27,12 +27,6 @@
       </formula:concept>
     </table:ruleNode>
     <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree" xlink:from="ruleNode_3" xlink:to="ruleNode_2" xlink:title="ruleNode to ruleNode" priority="0" order="2.0"/>
-    <table:ruleNode xlink:type="resource" xlink:label="ruleNode_4" xlink:title="ruleNode" id="ruleNode_4">
-      <formula:concept>
-        <formula:qname>nfo-dic:IspravlOtchetEnumerator</formula:qname>
-      </formula:concept>
-    </table:ruleNode>
-    <table:definitionNodeSubtreeArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/definition-node-subtree" xlink:from="ruleNode_3" xlink:to="ruleNode_4" xlink:title="ruleNode to ruleNode" priority="0" order="3.0"/>
     <table:breakdown xlink:type="resource" xlink:label="breakdown_2" xlink:title="breakdown" id="breakdown_2"/>
     <table:tableBreakdownArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2014/table-breakdown" xlink:from="table" xlink:to="breakdown_2" xlink:title="table to breakdown" priority="0" order="2.0" axis="y"/>
     <table:aspectNode xlink:type="resource" xlink:label="aspectNode" xlink:title="aspectNode" id="aspectNode">
