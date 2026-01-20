@@ -3,6 +3,7 @@
 <xsd:schema targetNamespace="http://www.cbr.ru/xbrl/nso/uk/rep/2026-11-15/ep/ep_nso_aif_uk_y_57rd" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ep_nso_aif_uk_y_57rd="http://www.cbr.ru/xbrl/nso/uk/rep/2026-11-15/ep/ep_nso_aif_uk_y_57rd">
   <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_0420505_0420877" schemaLocation="../../../../nfo/rep/2026-11-15/tab/sr_0420505_0420877/sr_0420505_0420877.xsd"/>
+  <xsd:import namespace="http://www.cbr.ru/xbrl/nso/uk/rep/2026-11-15/tab/sr_0420502_0420503_0420505_podpisant_sd" schemaLocation="../tab/sr_0420502_0420503_0420505_podpisant_sd/sr_0420502_0420503_0420505_podpisant_sd.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/uk/rep/2026-11-15/tab/sr_sved_otch_org" schemaLocation="../tab/sr_sved_otch_org/sr_sved_otch_org.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_soprovod" schemaLocation="../../../../nfo/rep/2026-11-15/tab/sr_soprovod/sr_soprovod.xsd"/>
   <xsd:import namespace="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_ks" schemaLocation="../../../../nfo/rep/2026-11-15/tab/sr_ks/sr_ks.xsd"/>
