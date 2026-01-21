@@ -8,7 +8,6 @@
   <link:roleRef roleURI="http://www.xbrl.org/2010/role/terseMessage" xlink:type="simple" xlink:href="http://www.xbrl.org/2010/generic-message.xsd#terse-message"/>
   <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_0420503_0420876_R1" xlink:type="simple" xlink:href="sr_0420503_0420876.xsd#sr_0420503_0420876_R1"/>
   <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_0420503_0420876_R2" xlink:type="simple" xlink:href="sr_0420503_0420876.xsd#sr_0420503_0420876_R2"/>
-  <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_0420503_0420876_podpisant_spec_dep" xlink:type="simple" xlink:href="sr_0420503_0420876.xsd#sr_0420503_0420876_podpisant_spec_dep"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/boolean-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/boolean-filter.xsd#boolean-filter"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-filter" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-filter"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/arcrole/2008/variable-set" xlink:type="simple" xlink:href="http://www.xbrl.org/2008/variable.xsd#variable-set"/>

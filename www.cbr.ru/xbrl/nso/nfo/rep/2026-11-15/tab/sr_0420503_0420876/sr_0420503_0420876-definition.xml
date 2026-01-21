@@ -16,7 +16,6 @@
   <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_0420503_0420876_R3_6" xlink:type="simple" xlink:href="sr_0420503_0420876.xsd#sr_0420503_0420876_R3_6"/>
   <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_0420503_0420876_R3_7" xlink:type="simple" xlink:href="sr_0420503_0420876.xsd#sr_0420503_0420876_R3_7"/>
   <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_0420503_0420876_R3_8" xlink:type="simple" xlink:href="sr_0420503_0420876.xsd#sr_0420503_0420876_R3_8"/>
-  <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_0420503_0420876_podpisant_spec_dep" xlink:type="simple" xlink:href="sr_0420503_0420876.xsd#sr_0420503_0420876_podpisant_spec_dep"/>
   <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_0420503_0420876_R3_RasxSvayzSDUPoVidamRasx" xlink:type="simple" xlink:href="sr_0420503_0420876.xsd#sr_0420503_0420876_R3_RasxSvayzSDUPoVidamRasx"/>
   <link:roleRef roleURI="http://www.cbr.ru/xbrl/nso/uk/dic/RasxRazmerKotSostav5IBoleeProczOtObshSummRasxAxis" xlink:type="simple" xlink:href="../../../../../uk/dic/uk-dic.xsd#RasxRazmerKotSostav5IBoleeProczOtObshSummRasxAxis"/>
   <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>

@@ -110,12 +110,6 @@
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>gen:link</link:usedOn>
       </link:roleType>
-      <link:roleType roleURI="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_0420503_0420876_podpisant_spec_dep" id="sr_0420503_0420876_podpisant_spec_dep">
-        <link:definition>0420503 / 0420876 Отчет о приросте (об уменьшении) стоимости имущества, принадлежащего акционерному инвестиционному фонду (составляющего паевой инвестиционный фонд) Сведения  о лице, подписавшем отчетность (уполномоченном лице специализированного депозитария)</link:definition>
-        <link:usedOn>link:presentationLink</link:usedOn>
-        <link:usedOn>link:definitionLink</link:usedOn>
-        <link:usedOn>gen:link</link:usedOn>
-      </link:roleType>
       <link:roleType roleURI="http://www.cbr.ru/xbrl/nso/nfo/rep/2026-11-15/tab/sr_0420503_0420876_R3_RasxSvayzSDUPoVidamRasx" id="sr_0420503_0420876_R3_RasxSvayzSDUPoVidamRasx">
         <link:definition>0420503 / 0420876 Отчет о приросте (об уменьшении) стоимости имущества, принадлежащего акционерному инвестиционному фонду (составляющего паевой инвестиционный фонд) Раздел 3. Сведения о приросте (об уменьшении) стоимости имущества. Суммы начисленных расходов, связанных с доверительным управлением имуществом, размер которых составляет 5 процентов и более от общей суммы расходов</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
