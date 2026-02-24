@@ -884,7 +884,7 @@
       </df:dimension>
     </df:typedDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_r6_12.e" xlink:to="valueAssertion_0420504_r6_12.e.f05" xlink:title="valueAssertion_0420504_r6_12.e to valueAssertion_0420504_r6_12.e.f05" priority="0" order="5.0" complement="true" cover="true"/>
-    <va:valueAssertion xlink:type="resource" xlink:label="fj_v0001_8" xlink:title="fj_v0001_8" id="valueAssertion_0420504_r6_01" implicitFiltering="true" aspectModel="dimensional" test="."/>
+    <va:valueAssertion xlink:type="resource" xlink:label="fj_v0001_8" xlink:title="fj_v0001_8" id="valueAssertion_0420504_r6_01" implicitFiltering="true" aspectModel="dimensional" test="not ( $PolnNaim )"/>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2016/assertion-unsatisfied-severity" xlink:from="fj_v0001_8" xlink:to="warning" xlink:title="fj_v0001_8 to warning" priority="0" order="1.0"/>
     <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420504_r6_01.a" xlink:title="valueAssertion_0420504_r6_01.a" id="valueAssertion_0420504_r6_01.a" bindAsSequence="false" fallbackValue="0"/>
     <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="fj_v0001_8" xlink:to="valueAssertion_0420504_r6_01.a" xlink:title="fj_v0001_8 to valueAssertion_0420504_r6_01.a" priority="0" order="1.0" name="VidVladelczaEnumerator"/>
@@ -918,6 +918,8 @@
       </df:dimension>
     </df:typedDimension>
     <variable:variableSetFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:from="fj_v0001_8" xlink:to="valueAssertion_0420504_r6_01.a.f03" xlink:title="fj_v0001_8 to valueAssertion_0420504_r6_01.a.f03" priority="0" order="2.0" complement="false"/>
+    <variable:precondition xlink:type="resource" xlink:label="precondition_27" xlink:title="precondition_27" id="precondition_27" test="string ( $VidVladelczaEnumerator  ) = &quot;mem-int:FLMember&quot;"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:from="fj_v0001_8" xlink:to="precondition_27" xlink:title="fj_v0001_8 to precondition_27" priority="0" order="1.0"/>
     <va:valueAssertion xlink:type="resource" xlink:label="fj_v0001_9" xlink:title="fj_v0001_9" id="valueAssertion_0420504_r6_13" implicitFiltering="true" aspectModel="dimensional" test=" $FIO "/>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2016/assertion-unsatisfied-severity" xlink:from="fj_v0001_9" xlink:to="warning" xlink:title="fj_v0001_9 to warning" priority="0" order="1.0"/>
     <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420504_r6_13.a" xlink:title="valueAssertion_0420504_r6_13.a" id="valueAssertion_0420504_r6_13.a" bindAsSequence="false" fallbackValue="0"/>
@@ -1358,6 +1360,9 @@
     <link:loc xlink:type="locator" xlink:href="#valueAssertion_0420504_r6_12" xlink:label="fj_v0001_7" xlink:title="fj_v0001_7"/>
     <msg:message xlink:type="resource" xlink:label="label_39" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_39" xml:lang="ru" id="label_39">0420504, Раздел III, Раздел VI, Раздел VII. Сумма значений показателя "Количество принадлежащих владельцам акций (инвестиционных паев)" (подраздел 1.1 раздела III) по всем значениям АП ГАП "Тип владельцев" и показателя "Количество акций акционерного инвестиционного фонда (инвестиционных паев паевого инвестиционного фонда), учитываемых на счетах" (подраздел 2 Раздела III) по АП "Депозитные лицевые счета" и "Казначейские лицевые счета" ГАП "Вид счетов" должна быть равна сумме значений показателя "Количество акций (инвестиционных паев), принадлежащих владельцу (входящих в состав активов инвестиционного фонда)" (раздел VI) по АП "Итого" ГАП "Техническая ось" и показателя "Количество акций (инвестиционных паев), принадлежащих владельцу (входящих в состав активов инвестиционного фонда)" (раздел VII) по всем АП ГАП "Код страны".</msg:message>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="fj_v0001_7" xlink:to="label_39" xlink:title="fj_v0001_7 to label_39" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="#valueAssertion_0420504_r6_01" xlink:label="fj_v0001_8_2" xlink:title="fj_v0001_8_2"/>
+    <msg:message xlink:type="resource" xlink:label="label_42" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_42" xml:lang="ru" id="label_42">0420504, Раздел VI. Если по показателю "Вид владельца" указано значение "Физические лица" по определенным значениям ГАП "Идентификатор инвестиционного фонда", "Идентификатор владельца", то показатель "Полное наименование" не должен быть заполнен по аналогичным значениям указанных ГАП.</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="fj_v0001_8_2" xlink:to="label_42" xlink:title="fj_v0001_8_2 to label_42" priority="0" order="1.0"/>
     <link:loc xlink:type="locator" xlink:href="#valueAssertion_0420504_r6_13" xlink:label="fj_v0001_9" xlink:title="fj_v0001_9"/>
     <msg:message xlink:type="resource" xlink:label="label_7" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_7" xml:lang="ru" id="label_7">0420504, Раздел VI. Если по показателю "Вид владельца" указано значение "Физические лица"  по определенным значениям ГАП "Идентификатор инвестиционного фонда", "Идентификатор владельца" и значение по показателю "Полное наименование" не заполнено по аналогичным значениям указанных ГАП, то должно быть заполнено значение по показателю "Фамилия, имя, отчество (при наличии)" по аналогичным значениям указанных ГАП.</msg:message>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="fj_v0001_9" xlink:to="label_7" xlink:title="fj_v0001_9 to label_7" priority="0" order="1.0"/>
@@ -1434,20 +1439,20 @@
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_r2.f" xlink:to="valueAssertion_0420504_r2.f.f03" xlink:title="valueAssertion_0420504_r2.f to valueAssertion_0420504_r2.f.f03" priority="0" order="2.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420504_r2.b" xlink:title="valueAssertion_0420504_r2.b" id="valueAssertion_0420504_r2.b" bindAsSequence="false" fallbackValue="0"/>
     <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_0420001_v0001" xlink:to="valueAssertion_0420504_r2.b" xlink:title="valueAssertion_0420001_v0001 to valueAssertion_0420504_r2.b" priority="0" order="7.0" name="PolnNaimPIF"/>
-    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r2.b.f01" xlink:title="valueAssertion_0420504_r2.b.f01" id="valueAssertion_0420504_r2.b.f01">
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r2.b.f02" xlink:title="valueAssertion_0420504_r2.b.f02" id="valueAssertion_0420504_r2.b.f02">
       <cf:concept>
-        <cf:qname>uk-dic:PolnNaimPIF</cf:qname>
+        <cf:qname>uk-dic:PolnNaim_Pif_Aif</cf:qname>
       </cf:concept>
     </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_r2.b" xlink:to="valueAssertion_0420504_r2.b.f01" xlink:title="valueAssertion_0420504_r2.b to valueAssertion_0420504_r2.b.f01" priority="0" order="1.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_r2.b" xlink:to="valueAssertion_0420504_r2.b.f02" xlink:title="valueAssertion_0420504_r2.b to valueAssertion_0420504_r2.b.f02" priority="0" order="2.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420504_r2.c" xlink:title="valueAssertion_0420504_r2.c" id="valueAssertion_0420504_r2.c" bindAsSequence="false" fallbackValue="0"/>
     <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_0420001_v0001" xlink:to="valueAssertion_0420504_r2.c" xlink:title="valueAssertion_0420001_v0001 to valueAssertion_0420504_r2.c" priority="0" order="8.0" name="RegNomPravilDoverUpravFondom"/>
-    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r2.c.f01" xlink:title="valueAssertion_0420504_r2.c.f01" id="valueAssertion_0420504_r2.c.f01">
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r2.c.f02" xlink:title="valueAssertion_0420504_r2.c.f02" id="valueAssertion_0420504_r2.c.f02">
       <cf:concept>
-        <cf:qname>uk-dic:RegNomPravilDoverUpravFondom</cf:qname>
+        <cf:qname>uk-dic:NomerLiczenzii_Aif_Pif</cf:qname>
       </cf:concept>
     </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_r2.c" xlink:to="valueAssertion_0420504_r2.c.f01" xlink:title="valueAssertion_0420504_r2.c to valueAssertion_0420504_r2.c.f01" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_r2.c" xlink:to="valueAssertion_0420504_r2.c.f02" xlink:title="valueAssertion_0420504_r2.c to valueAssertion_0420504_r2.c.f02" priority="0" order="2.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420504_r2.d" xlink:title="valueAssertion_0420504_r2.d" id="valueAssertion_0420504_r2.d" bindAsSequence="false" fallbackValue="0"/>
     <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_0420001_v0001" xlink:to="valueAssertion_0420504_r2.d" xlink:title="valueAssertion_0420001_v0001 to valueAssertion_0420504_r2.d" priority="0" order="9.0" name="Okpo"/>
     <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r2.d.f01" xlink:title="valueAssertion_0420504_r2.d.f01" id="valueAssertion_0420504_r2.d.f01">
@@ -1464,6 +1469,16 @@
     <variable:variableSetFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:from="valueAssertion_0420001_v0001" xlink:to="valueAssertion_0420504_r2.f.f02" xlink:title="valueAssertion_0420001_v0001 to valueAssertion_0420504_r2.f.f02" priority="0" order="1.0" complement="false"/>
     <variable:precondition xlink:type="resource" xlink:label="precondition" xlink:title="precondition" id="precondition" test=" $PolnNaimPIF or  $RegNomPravilDoverUpravFondom or  $Okpo "/>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:from="valueAssertion_0420001_v0001" xlink:to="precondition" xlink:title="valueAssertion_0420001_v0001 to precondition" priority="0" order="1.0"/>
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r2.c.f01" xlink:title="valueAssertion_0420504_r2.c.f01" id="valueAssertion_0420504_r2.c.f01">
+      <cf:concept>
+        <cf:qname>uk-dic:RegNomPravilDoverUpravFondom</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r2.b.f01" xlink:title="valueAssertion_0420504_r2.b.f01" id="valueAssertion_0420504_r2.b.f01">
+      <cf:concept>
+        <cf:qname>uk-dic:PolnNaimPIF</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
   </gen:link>
   <gen:link xlink:type="extended" xlink:role="http://www.cbr.ru/xbrl/nso/uk/rep/2026-11-15/tab/sr_0420504_sved_aif_pif_uk">
     <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_0420001_v0001" xlink:title="valueAssertion_0420001_v0001" id="valueAssertion_0420504_r1" test=" $RegNomPDUFondom " aspectModel="dimensional" implicitFiltering="true"/>
@@ -1477,12 +1492,12 @@
       </df:dimension>
     </df:typedDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_r1.a" xlink:to="valueAssertion_0420504_r1.a.f02" xlink:title="valueAssertion_0420504_r1.a to valueAssertion_0420504_r1.a.f02" priority="0" order="2.0" cover="false" complement="false"/>
-    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r1.a.f03" xlink:title="valueAssertion_0420504_r1.a.f03" id="valueAssertion_0420504_r1.a.f03">
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r1.a.f03_2" xlink:title="valueAssertion_0420504_r1.a.f03_2" id="valueAssertion_0420504_r1.a.f03_2">
       <cf:concept>
-        <cf:qname>uk-dic:PolnNaimPIF</cf:qname>
+        <cf:qname>uk-dic:PolnNaim_Pif_Aif</cf:qname>
       </cf:concept>
     </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_r1.a" xlink:to="valueAssertion_0420504_r1.a.f03" xlink:title="valueAssertion_0420504_r1.a to valueAssertion_0420504_r1.a.f03" priority="0" order="3.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_r1.a" xlink:to="valueAssertion_0420504_r1.a.f03_2" xlink:title="valueAssertion_0420504_r1.a to valueAssertion_0420504_r1.a.f03_2" priority="0" order="4.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420504_r1.b" xlink:title="valueAssertion_0420504_r1.b" id="valueAssertion_0420504_r1.b" bindAsSequence="false" fallbackValue="0"/>
     <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_0420001_v0001" xlink:to="valueAssertion_0420504_r1.b" xlink:title="valueAssertion_0420001_v0001 to valueAssertion_0420504_r1.b" priority="0" order="2.0" name="RegNomPDUFondom"/>
     <df:typedDimension xlink:type="resource" xlink:label="valueAssertion_0420504_r1.b.f02" xlink:title="valueAssertion_0420504_r1.b.f02" id="valueAssertion_0420504_r1.b.f02">
@@ -1491,12 +1506,12 @@
       </df:dimension>
     </df:typedDimension>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_r1.b" xlink:to="valueAssertion_0420504_r1.b.f02" xlink:title="valueAssertion_0420504_r1.b to valueAssertion_0420504_r1.b.f02" priority="0" order="2.0" cover="false" complement="false"/>
-    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r1.b.f03" xlink:title="valueAssertion_0420504_r1.b.f03" id="valueAssertion_0420504_r1.b.f03">
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r1.b.f03_2" xlink:title="valueAssertion_0420504_r1.b.f03_2" id="valueAssertion_0420504_r1.b.f03_2">
       <cf:concept>
-        <cf:qname>uk-dic:RegNomPravilDoverUpravFondom</cf:qname>
+        <cf:qname>uk-dic:NomerLiczenzii_Aif_Pif</cf:qname>
       </cf:concept>
     </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_r1.b" xlink:to="valueAssertion_0420504_r1.b.f03" xlink:title="valueAssertion_0420504_r1.b to valueAssertion_0420504_r1.b.f03" priority="0" order="3.0" complement="false" cover="true"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_r1.b" xlink:to="valueAssertion_0420504_r1.b.f03_2" xlink:title="valueAssertion_0420504_r1.b to valueAssertion_0420504_r1.b.f03_2" priority="0" order="4.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420504_r1.c" xlink:title="valueAssertion_0420504_r1.c" id="valueAssertion_0420504_r1.c" bindAsSequence="false" fallbackValue="0"/>
     <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="valueAssertion_0420001_v0001" xlink:to="valueAssertion_0420504_r1.c" xlink:title="valueAssertion_0420001_v0001 to valueAssertion_0420504_r1.c" priority="0" order="3.0" name="KodOKPOOrg"/>
     <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r1.c.f01" xlink:title="valueAssertion_0420504_r1.c.f01" id="valueAssertion_0420504_r1.c.f01">
@@ -1578,6 +1593,16 @@
     <variable:variableSetFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:from="fj_v0001_2" xlink:to="valueAssertion_0420504_r1_4.a.f02" xlink:title="fj_v0001_2 to valueAssertion_0420504_r1_4.a.f02" priority="0" order="1.0" complement="false"/>
     <variable:precondition xlink:type="resource" xlink:label="precondition_3" xlink:title="precondition_3" id="precondition_3" test=" $NomerLiczenzii_Aif_Pif "/>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:from="fj_v0001_2" xlink:to="precondition_3" xlink:title="fj_v0001_2 to precondition_3" priority="0" order="1.0"/>
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r1.b.f03" xlink:title="valueAssertion_0420504_r1.b.f03" id="valueAssertion_0420504_r1.b.f03">
+      <cf:concept>
+        <cf:qname>uk-dic:RegNomPravilDoverUpravFondom</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_r1.a.f03" xlink:title="valueAssertion_0420504_r1.a.f03" id="valueAssertion_0420504_r1.a.f03">
+      <cf:concept>
+        <cf:qname>uk-dic:PolnNaimPIF</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
   </gen:link>
   <gen:link xlink:type="extended" xlink:role="http://www.cbr.ru/xbrl/nso/uk/rep/2026-11-15/tab/sr_0420504_r3_p1_2">
     <va:valueAssertion xlink:type="resource" xlink:label="fj_v0001" xlink:title="fj_v0001" id="valueAssertion_0420504_r3_p1_2_02" implicitFiltering="true" aspectModel="dimensional" test=" $KolVo_Vladelczev  &gt; 0"/>
@@ -1824,20 +1849,20 @@
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2016/assertion-unsatisfied-severity" xlink:from="fj_v0001" xlink:to="warning" xlink:title="fj_v0001 to warning" priority="0" order="1.0"/>
     <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420504_podpisant_reestroderzhat_uk.a" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.a" id="valueAssertion_0420504_podpisant_reestroderzhat_uk.a" bindAsSequence="false" fallbackValue="0"/>
     <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="fj_v0001" xlink:to="valueAssertion_0420504_podpisant_reestroderzhat_uk.a" xlink:title="fj_v0001 to valueAssertion_0420504_podpisant_reestroderzhat_uk.a" priority="0" order="4.0" name="PolnNaimPif"/>
-    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f02" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f02" id="valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f02">
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f03" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f03" id="valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f03">
       <cf:concept>
-        <cf:qname>uk-dic:PolnNaimPIF</cf:qname>
+        <cf:qname>uk-dic:PolnNaim_Pif_Aif</cf:qname>
       </cf:concept>
     </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_podpisant_reestroderzhat_uk.a" xlink:to="valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f02" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.a to valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f02" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_podpisant_reestroderzhat_uk.a" xlink:to="valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f03" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.a to valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f03" priority="0" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420504_podpisant_reestroderzhat_uk.b" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.b" id="valueAssertion_0420504_podpisant_reestroderzhat_uk.b" bindAsSequence="false" fallbackValue="0"/>
     <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="fj_v0001" xlink:to="valueAssertion_0420504_podpisant_reestroderzhat_uk.b" xlink:title="fj_v0001 to valueAssertion_0420504_podpisant_reestroderzhat_uk.b" priority="0" order="5.0" name="RegNomPDUFondom"/>
-    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02" id="valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02">
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02_2" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02_2" id="valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02_2">
       <cf:concept>
-        <cf:qname>uk-dic:RegNomPravilDoverUpravFondom</cf:qname>
+        <cf:qname>uk-dic:NomerLiczenzii_Aif_Pif</cf:qname>
       </cf:concept>
     </cf:conceptName>
-    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_podpisant_reestroderzhat_uk.b" xlink:to="valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.b to valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02" priority="0" order="2.0" cover="true" complement="false"/>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420504_podpisant_reestroderzhat_uk.b" xlink:to="valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02_2" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.b to valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02_2" priority="0" order="3.0" cover="true" complement="false"/>
     <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420504_podpisant_reestroderzhat_uk.c" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.c" id="valueAssertion_0420504_podpisant_reestroderzhat_uk.c" bindAsSequence="false" fallbackValue="0"/>
     <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="fj_v0001" xlink:to="valueAssertion_0420504_podpisant_reestroderzhat_uk.c" xlink:title="fj_v0001 to valueAssertion_0420504_podpisant_reestroderzhat_uk.c" priority="0" order="6.0" name="KodOKPOOrg"/>
     <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_podpisant_reestroderzhat_uk.c.f01" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.c.f01" id="valueAssertion_0420504_podpisant_reestroderzhat_uk.c.f01">
@@ -1918,6 +1943,16 @@
       </df:dimension>
     </df:typedDimension>
     <variable:variableSetFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:from="fj_v0001_2" xlink:to="valueAssertion_0420504_podpisant_reestroderzhat_aif.a.f02" xlink:title="fj_v0001_2 to valueAssertion_0420504_podpisant_reestroderzhat_aif.a.f02" priority="0" order="1.0" complement="false"/>
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02" id="valueAssertion_0420504_podpisant_reestroderzhat_uk.b.f02">
+      <cf:concept>
+        <cf:qname>uk-dic:RegNomPravilDoverUpravFondom</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f02" xlink:title="valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f02" id="valueAssertion_0420504_podpisant_reestroderzhat_uk.a.f02">
+      <cf:concept>
+        <cf:qname>uk-dic:PolnNaimPIF</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
   </gen:link>
   <gen:link xlink:type="extended" xlink:role="http://www.cbr.ru/xbrl/nso/uk/rep/2026-11-15/tab/sr_0420504_r3_p2">
     <va:valueAssertion xlink:type="resource" xlink:label="fj_v0001" xlink:title="fj_v0001" id="valueAssertion_0420504_r3_p2" implicitFiltering="true" aspectModel="dimensional" test=" $KolVo_Akczij_Aif_Inye_Scheta  &gt;= 0"/>
