@@ -112,6 +112,43 @@
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420860_reestr_k_v02.b" xlink:to="valueAssertion_0420860_reestr_k_v02.b.f06" xlink:title="valueAssertion_0420860_reestr_k_v02.b to valueAssertion_0420860_reestr_k_v02.b.f06" priority="0" order="4.0" cover="true" complement="false"/>
     <link:loc xlink:type="locator" xlink:href="http://www.xbrl.org/2016/severities.xml#ERROR" xlink:label="error_2" xlink:title="error_2"/>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2016/assertion-unsatisfied-severity" xlink:from="valueAssertion_0420860_reestr_k_v02" xlink:to="error_2" xlink:title="valueAssertion_0420860_reestr_k_v02 to error_2" priority="0" order="1.0"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="fj_v0001" xlink:title="fj_v0001" id="valueAssertion_0420860_r1_v01" implicitFiltering="true" aspectModel="dimensional" test="$SDIspolnObyazPoUchOperSImushEnumerator"/>
+    <link:loc xlink:type="locator" xlink:href="http://www.xbrl.org/2016/severities.xml#WARNING" xlink:label="warning" xlink:title="warning"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2016/assertion-unsatisfied-severity" xlink:from="fj_v0001" xlink:to="warning" xlink:title="fj_v0001 to warning" priority="0" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420860_r1_0420874_r2_v03.a" xlink:title="valueAssertion_0420860_r1_0420874_r2_v03.a" id="valueAssertion_0420860_r1_0420874_r2_v03.a" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="fj_v0001" xlink:to="valueAssertion_0420860_r1_0420874_r2_v03.a" xlink:title="fj_v0001 to valueAssertion_0420860_r1_0420874_r2_v03.a" priority="0" order="1.0" name="SCHAotchDat"/>
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420860_r1_0420874_r2_v03.a.f01" xlink:title="valueAssertion_0420860_r1_0420874_r2_v03.a.f01" id="valueAssertion_0420860_r1_0420874_r2_v03.a.f01">
+      <cf:concept>
+        <cf:qname>srki-dic:SCHAotchDat</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420860_r1_0420874_r2_v03.a" xlink:to="valueAssertion_0420860_r1_0420874_r2_v03.a.f01" xlink:title="valueAssertion_0420860_r1_0420874_r2_v03.a to valueAssertion_0420860_r1_0420874_r2_v03.a.f01" priority="0" order="1.0" cover="true" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420860_r1_0420874_r2_v03.b" xlink:title="valueAssertion_0420860_r1_0420874_r2_v03.b" id="valueAssertion_0420860_r1_0420874_r2_v03.b" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="fj_v0001" xlink:to="valueAssertion_0420860_r1_0420874_r2_v03.b" xlink:title="fj_v0001 to valueAssertion_0420860_r1_0420874_r2_v03.b" priority="0" order="2.0" name="SDIspolnObyazPoUchOperSImushEnumerator"/>
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420860_r1_0420874_r2_v03.b.f01" xlink:title="valueAssertion_0420860_r1_0420874_r2_v03.b.f01" id="valueAssertion_0420860_r1_0420874_r2_v03.b.f01">
+      <cf:concept>
+        <cf:qname>srki-dic:SDIspolnObyazPoUchOperSImushEnumerator</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420860_r1_0420874_r2_v03.b" xlink:to="valueAssertion_0420860_r1_0420874_r2_v03.b.f01" xlink:title="valueAssertion_0420860_r1_0420874_r2_v03.b to valueAssertion_0420860_r1_0420874_r2_v03.b.f01" priority="0" order="1.0" complement="false" cover="true"/>
+    <asf:aspectCover xlink:type="resource" xlink:label="valueAssertion_0420860_r1_0420874_r2_v03.b.f02" xlink:title="valueAssertion_0420860_r1_0420874_r2_v03.b.f02" id="valueAssertion_0420860_r1_0420874_r2_v03.b.f02">
+      <asf:aspect>unit</asf:aspect>
+    </asf:aspectCover>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420860_r1_0420874_r2_v03.b" xlink:to="valueAssertion_0420860_r1_0420874_r2_v03.b.f02" xlink:title="valueAssertion_0420860_r1_0420874_r2_v03.b to valueAssertion_0420860_r1_0420874_r2_v03.b.f02" priority="0" order="2.0" cover="true" complement="false"/>
+    <df:typedDimension xlink:type="resource" xlink:label="valueAssertion_0420860_r1_0420874_r2_v03.f01" xlink:title="valueAssertion_0420860_r1_0420874_r2_v03.f01" id="valueAssertion_0420860_r1_0420874_r2_v03.f01">
+      <df:dimension>
+        <df:qname>dim-int:ID_UkTaxis</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableSetFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:from="fj_v0001" xlink:to="valueAssertion_0420860_r1_0420874_r2_v03.f01" xlink:title="fj_v0001 to valueAssertion_0420860_r1_0420874_r2_v03.f01" priority="0" order="1.0" complement="false"/>
+    <df:typedDimension xlink:type="resource" xlink:label="valueAssertion_0420860_r1_0420874_r2_v03.f02" xlink:title="valueAssertion_0420860_r1_0420874_r2_v03.f02" id="valueAssertion_0420860_r1_0420874_r2_v03.f02">
+      <df:dimension>
+        <df:qname>dim-int:ID_AIFTaxis</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableSetFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-filter" xlink:from="fj_v0001" xlink:to="valueAssertion_0420860_r1_0420874_r2_v03.f02" xlink:title="fj_v0001 to valueAssertion_0420860_r1_0420874_r2_v03.f02" priority="0" order="2.0" complement="false"/>
+    <variable:precondition xlink:type="resource" xlink:label="precondition_62" xlink:title="precondition_62" id="precondition_62" test="$SCHAotchDat"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:from="fj_v0001" xlink:to="precondition_62" xlink:title="fj_v0001 to precondition_62" priority="0" order="1.0"/>
   </gen:link>
   <gen:link xlink:type="extended" xlink:role="http://www.cbr.ru/xbrl/nso/srki/rep/2026-11-15/tab/sr_0420860_r2">
     <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_0420860_reestr_k_v01" xlink:title="valueAssertion_0420860_reestr_k_v01" id="valueAssertion_0420860_r2_0420874_r5_v01" test=" $NazvPIF and  $RegPDUPIF and $TipPIFEnumerator and $KatPIF and $PaiKvalInvEnumerator and $StatPIFEnumerator " aspectModel="dimensional" implicitFiltering="true"/>
@@ -486,6 +523,54 @@
       <asf:aspect>unit</asf:aspect>
     </asf:aspectCover>
     <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420860_r2_v04.b" xlink:to="valueAssertion_0420860_r2_v04.b.f02" xlink:title="valueAssertion_0420860_r2_v04.b to valueAssertion_0420860_r2_v04.b.f02" priority="0" order="2.0" cover="true" complement="false"/>
+    <va:valueAssertion xlink:type="resource" xlink:label="fj_v0001_3" xlink:title="fj_v0001_3" id="valueAssertion_0420860_r2_v05" implicitFiltering="true" aspectModel="dimensional" test="$SDIspolnObyazPoUchOperSImushEnumerator"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2016/assertion-unsatisfied-severity" xlink:from="fj_v0001_3" xlink:to="warning" xlink:title="fj_v0001_3 to warning" priority="0" order="1.0"/>
+    <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420860_r2_v05.a" xlink:title="valueAssertion_0420860_r2_v05.a" id="valueAssertion_0420860_r2_v05.a" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="fj_v0001_3" xlink:to="valueAssertion_0420860_r2_v05.a" xlink:title="fj_v0001_3 to valueAssertion_0420860_r2_v05.a" priority="0" order="1.0" name="SCHAotchDat"/>
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420860_r2_v05.a.f01" xlink:title="valueAssertion_0420860_r2_v05.a.f01" id="valueAssertion_0420860_r2_v05.a.f01">
+      <cf:concept>
+        <cf:qname>srki-dic:SCHAotchDat</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420860_r2_v05.a" xlink:to="valueAssertion_0420860_r2_v05.a.f01" xlink:title="valueAssertion_0420860_r2_v05.a to valueAssertion_0420860_r2_v05.a.f01" priority="0" order="1.0" cover="true" complement="false"/>
+    <df:typedDimension xlink:type="resource" xlink:label="valueAssertion_0420860_r2_v05.a.f02" xlink:title="valueAssertion_0420860_r2_v05.a.f02" id="valueAssertion_0420860_r2_v05.a.f02">
+      <df:dimension>
+        <df:qname>dim-int:ID_PIFTaxis</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420860_r2_v05.a" xlink:to="valueAssertion_0420860_r2_v05.a.f02" xlink:title="valueAssertion_0420860_r2_v05.a to valueAssertion_0420860_r2_v05.a.f02" priority="0" order="2.0" cover="false" complement="false"/>
+    <df:typedDimension xlink:type="resource" xlink:label="valueAssertion_0420860_r2_v05.a.f03" xlink:title="valueAssertion_0420860_r2_v05.a.f03" id="valueAssertion_0420860_r2_v05.a.f03">
+      <df:dimension>
+        <df:qname>dim-int:ID_UkTaxis</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420860_r2_v05.a" xlink:to="valueAssertion_0420860_r2_v05.a.f03" xlink:title="valueAssertion_0420860_r2_v05.a to valueAssertion_0420860_r2_v05.a.f03" priority="0" order="3.0" cover="false" complement="false"/>
+    <variable:factVariable xlink:type="resource" xlink:label="valueAssertion_0420860_r2_v05.b" xlink:title="valueAssertion_0420860_r2_v05.b" id="valueAssertion_0420860_r2_v05.b" bindAsSequence="false" fallbackValue="0"/>
+    <variable:variableArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set" xlink:from="fj_v0001_3" xlink:to="valueAssertion_0420860_r2_v05.b" xlink:title="fj_v0001_3 to valueAssertion_0420860_r2_v05.b" priority="0" order="2.0" name="SDIspolnObyazPoUchOperSImushEnumerator"/>
+    <cf:conceptName xlink:type="resource" xlink:label="valueAssertion_0420860_r2_v05.b.f01" xlink:title="valueAssertion_0420860_r2_v05.b.f01" id="valueAssertion_0420860_r2_v05.b.f01">
+      <cf:concept>
+        <cf:qname>srki-dic:SDIspolnObyazPoUchOperSImushEnumerator</cf:qname>
+      </cf:concept>
+    </cf:conceptName>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420860_r2_v05.b" xlink:to="valueAssertion_0420860_r2_v05.b.f01" xlink:title="valueAssertion_0420860_r2_v05.b to valueAssertion_0420860_r2_v05.b.f01" priority="0" order="1.0" complement="false" cover="true"/>
+    <df:typedDimension xlink:type="resource" xlink:label="valueAssertion_0420860_r2_v05.b.f02" xlink:title="valueAssertion_0420860_r2_v05.b.f02" id="valueAssertion_0420860_r2_v05.b.f02">
+      <df:dimension>
+        <df:qname>dim-int:ID_PIFTaxis</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420860_r2_v05.b" xlink:to="valueAssertion_0420860_r2_v05.b.f02" xlink:title="valueAssertion_0420860_r2_v05.b to valueAssertion_0420860_r2_v05.b.f02" priority="0" order="2.0" complement="false" cover="false"/>
+    <df:typedDimension xlink:type="resource" xlink:label="valueAssertion_0420860_r2_v05.b.f03" xlink:title="valueAssertion_0420860_r2_v05.b.f03" id="valueAssertion_0420860_r2_v05.b.f03">
+      <df:dimension>
+        <df:qname>dim-int:ID_UkTaxis</df:qname>
+      </df:dimension>
+    </df:typedDimension>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420860_r2_v05.b" xlink:to="valueAssertion_0420860_r2_v05.b.f03" xlink:title="valueAssertion_0420860_r2_v05.b to valueAssertion_0420860_r2_v05.b.f03" priority="0" order="3.0" cover="false" complement="false"/>
+    <asf:aspectCover xlink:type="resource" xlink:label="valueAssertion_0420860_r2_v05.b.f04" xlink:title="valueAssertion_0420860_r2_v05.b.f04" id="valueAssertion_0420860_r2_v05.b.f04">
+      <asf:aspect>unit</asf:aspect>
+    </asf:aspectCover>
+    <variable:variableFilterArc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-filter" xlink:from="valueAssertion_0420860_r2_v05.b" xlink:to="valueAssertion_0420860_r2_v05.b.f04" xlink:title="valueAssertion_0420860_r2_v05.b to valueAssertion_0420860_r2_v05.b.f04" priority="0" order="4.0" cover="true" complement="false"/>
+    <variable:precondition xlink:type="resource" xlink:label="precondition_61" xlink:title="precondition_61" id="precondition_61" test="$SCHAotchDat"/>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2008/variable-set-precondition" xlink:from="fj_v0001_3" xlink:to="precondition_61" xlink:title="fj_v0001_3 to precondition_61" priority="0" order="1.0"/>
   </gen:link>
   <gen:link xlink:type="extended" xlink:role="http://www.cbr.ru/xbrl/nso/srki/rep/2026-11-15/tab/sr_0420860_r3">
     <va:valueAssertion xlink:type="resource" xlink:label="valueAssertion_0420860_r2_0420874_r10_v02" xlink:title="valueAssertion_0420860_r2_0420874_r10_v02" id="valueAssertion_0420860_r3_0420874_r3_v01" test=" $RegPDUIpotPokr and $IndISU " aspectModel="dimensional" implicitFiltering="true"/>
@@ -2463,6 +2548,9 @@
     <link:loc xlink:type="locator" xlink:href="#valueAssertion_0420860_r2_v04" xlink:label="fj_v0001_4" xlink:title="fj_v0001_4"/>
     <msg:message xlink:type="resource" xlink:label="label_49" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_49" xml:lang="ru" id="label_49">0420860 Раздел 2. Если хотя бы по одному показателю «Специализированный депозитарий осуществляет ведение реестра владельцев инвестиционных паев паевого инвестиционного фонда» указано значение «Да», то показатель «Количество лицевых счетов владельцев инвестиционных паев паевого инвестиционного фонда» должен быть заполнен.</msg:message>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="fj_v0001_4" xlink:to="label_49" xlink:title="fj_v0001_4 to label_49" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="#valueAssertion_0420860_r2_v05" xlink:label="fj_v0001_3_2" xlink:title="fj_v0001_3_2"/>
+    <msg:message xlink:type="resource" xlink:label="label_64" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_64" xml:lang="ru" id="label_64">0420860 Раздел 2. Если заполнен показатель "Стоимость чистых активов на отчетную дату", то показатель «Специализированный депозитарий исполняет обязанности по учету операций с имуществом» должен быть заполнен.</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="fj_v0001_3_2" xlink:to="label_64" xlink:title="fj_v0001_3_2 to label_64" priority="0" order="1.0"/>
     <link:loc xlink:type="locator" xlink:href="#valueAssertion_0420860_r3_0420874_r3_v01" xlink:label="valueAssertion_0420860_r2_0420874_r10_v02_3" xlink:title="valueAssertion_0420860_r2_0420874_r10_v02_3"/>
     <msg:message xlink:type="resource" xlink:label="label_17" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_17" xml:lang="ru" id="label_17">0420860 Раздел 3, 0420874 Раздел 3. При отражении информации по показателю: "Размер ипотечного покрытия на отчетную дату" в разрезе аналитических признаков "Идентификатор ценной бумаги", "Идентификатор управляющего ипотечным покрытием", "Идентификатор ипотечного покрытия" в отчете должна быть представлена информация по показателям: "Регистрационный номер правил доверительного управления ипотечным покрытием", "Индивидуальное обозначение, идентифицирующее ипотечные сертификаты участия" в разделе 3 формы 0420874. При этом значение аналитического признака "Идентификатор ценной бумаги" показателя "Размер ипотечного покрытия на отчетную дату" должно соответствовать значению аналитического признака "Идентификатор ценной бумаги" показателей: "Регистрационный номер правил доверительного управления ипотечным покрытием", "Индивидуальное обозначение, идентифицирующее ипотечные сертификаты участия" раздела 3 формы 0420874.</msg:message>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_0420860_r2_0420874_r10_v02_3" xlink:to="label_17" xlink:title="valueAssertion_0420860_r2_0420874_r10_v02_3 to label_17" priority="0" order="1.0"/>
@@ -2628,6 +2716,9 @@
     <link:loc xlink:type="locator" xlink:href="#valueAssertion_0420860_r13_02" xlink:label="valueAssertion_0420860_r13_v0001_12" xlink:title="valueAssertion_0420860_r13_v0001_12"/>
     <msg:message xlink:type="resource" xlink:label="label_63" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_63" xml:lang="ru" id="label_63">0420860 Раздел 13. Значения показателя "Стоимость чистых активов на отчетную дату" по компоненту "Договоры на обслуживание акционерных инвестиционных фондов" аналитического признака "Вид договора", показателя "Стоимость чистых активов на отчетную дату" по компоненту "Договоры на обслуживание паевых инвестиционных фондов (в том числе договоры на ведение реестров владельцев инвестиционных паев)" аналитического признака "Вид договора", показателя "Размер ипотечного покрытия на отчетную дату" по компоненту "Договоры на обслуживание ипотечных покрытий (ипотечные сертификаты участия)" аналитического признака "Вид договора", показателя "Размер ипотечного покрытия на отчетную дату" по компоненту "Договоры на обслуживание ипотечных покрытий (облигации с ипотечным покрытием)" аналитического признака "Вид договора", показателя "Стоимость чистых активов, в которые инвестированы средства пенсионных накоплений, на отчетную дату" по компоненту "Договоры на обслуживание пенсионных накоплений (Фонд пенсионного и социального страхования Российской Федерации)" аналитического признака "Вид договора", показателя "Стоимость чистых активов, в которые инвестированы средства пенсионных накоплений, на отчетную дату" по компоненту "Договоры на обслуживание пенсионных накоплений негосударственных пенсионных фондов" аналитического признака "Вид договора", показателя "Стоимость пенсионных резервов на отчетную дату", показателя "Стоимость чистых активов, в которые инвестированы накопления для жилищного обеспечения военнослужащих, на отчетную дату", показателя "Величина страховых резервов и собственных средств (капитала) страховщика на отчетную дату", показателя "Стоимость имущества (активов) на отчетную дату", показателя "Общая величина имущества (активов), в отношении которых специализированный депозитарий оказывает услуги" должны быть неотрицательны.</msg:message>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="valueAssertion_0420860_r13_v0001_12" xlink:to="label_63" xlink:title="valueAssertion_0420860_r13_v0001_12 to label_63" priority="0" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="#valueAssertion_0420860_r1_v01" xlink:label="fj_v0001_7" xlink:title="fj_v0001_7"/>
+    <msg:message xlink:type="resource" xlink:label="label_65" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label_65" xml:lang="ru" id="label_65">0420860 Раздел 1. Если заполнен показатель "Стоимость чистых активов на отчетную дату", то показатель «Специализированный депозитарий исполняет обязанности по учету операций с имуществом» должен быть заполнен.</msg:message>
+    <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="fj_v0001_7" xlink:to="label_65" xlink:title="fj_v0001_7 to label_65" priority="0" order="1.0"/>
   </gen:link>
   <gen:link xlink:type="extended" xlink:role="http://www.cbr.ru/xbrl/nso/srki/rep/2026-11-15/tab/sr_0420860_r11">
     <va:valueAssertion xlink:type="resource" xlink:label="fj_v0001" xlink:title="fj_v0001" id="valueAssertion_0420860_r11" implicitFiltering="true" aspectModel="dimensional" test=" $ObshhVoznFaktSDpoZaklDogObsh eq  $ObshhVoznFaktSDpoZaklDogAIF + $ObshhVoznFaktSDpoZaklDogPIF + $ObshhVoznFaktSDpoZaklDogISU + $ObshhVoznFaktSDpoZaklDogObl + $ObshhVoznFaktSDpoZaklDogPN_PFR + $ObshhVoznFaktSDpoZaklDogPN_NPF + $ObshhVoznFaktSDpoZaklDogPR + $ObshhVoznFaktSDpoZaklDogZhov + $ObshhVoznFaktSDpoZaklDogSRiSS + $ObshhVoznFaktSDpoZaklDogInoeIm"/>
