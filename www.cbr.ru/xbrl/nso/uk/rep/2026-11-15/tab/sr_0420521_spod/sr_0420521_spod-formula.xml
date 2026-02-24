@@ -159,7 +159,7 @@
   </gen:link>
   <gen:link xlink:type="extended" xlink:role="http://www.xbrl.org/2008/role/link">
     <link:loc xlink:type="locator" xlink:href="#valueAssertion_0420521_spod_1" xlink:label="fj_v0001" xlink:title="fj_v0001"/>
-    <msg:message xlink:type="resource" xlink:label="label" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label" xml:lang="ru" id="label">0420521 (СПОД). Значение каждого показателя, отражаемого в разрезе ГАП "Номер счета второго порядка", должно быть равно сумме значений данного показателя по аналогичному значению указанной ГАП в разрезе АП ГАП "Валюта Российской Федерации или рублевый эквивалент": "В валюте Российской Федерации", "В иностранной валюте и драгоценных металлах в рублевом эквиваленте".</msg:message>
+    <msg:message xlink:type="resource" xlink:label="label" xlink:role="http://www.xbrl.org/2010/role/message" xlink:title="label" xml:lang="ru" id="label">0420521 (СПОГ). Значение каждого показателя, отражаемого в разрезе ГАП "Номер счета второго порядка", должно быть равно сумме значений данного показателя по аналогичному значению указанной ГАП в разрезе АП ГАП "Валюта Российской Федерации или рублевый эквивалент": "В валюте Российской Федерации", "В иностранной валюте и драгоценных металлах в рублевом эквиваленте".</msg:message>
     <gen:arc xlink:type="arc" xlink:arcrole="http://xbrl.org/arcrole/2010/assertion-unsatisfied-message" xlink:from="fj_v0001" xlink:to="label" xlink:title="fj_v0001 to label" priority="0" order="1.0"/>
   </gen:link>
 </link:linkbase>
