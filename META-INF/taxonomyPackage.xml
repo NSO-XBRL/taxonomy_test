@@ -785,11 +785,6 @@
       <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2026-11-15/ep/ep_nso_oper_0420727_nr_2rd_pril.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
-      <tp:name>ep_nso_oper_0420738_m_q_y_10rd</tp:name>      
-      <tp:description>Операторы инвестиционных платформ, операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов. Надзорная отчетность, представляемая в течение 10 рабочих дней (только форма 0420738). Отчетность на конец месяца, квартала, года.</tp:description>      
-      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2026-11-15/ep/ep_nso_oper_0420738_m_q_y_10rd.xsd"/>    
-	</tp:entryPoint>
-	<tp:entryPoint>      
       <tp:name>ep_nso_oper_0420725_nr_2rd</tp:name>      
       <tp:description>Операторы информационных систем, в которых осуществляется выпуск цифровых финансовых активов, операторы обмена цифровых финансовых активов. Надзорная отчетность, представляемая в течение 2 рабочих дней (только форма 0420725). Нерегулярная отчетность.</tp:description>      
       <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2026-11-15/ep/ep_nso_oper_0420725_nr_2rd.xsd"/>    
@@ -800,9 +795,9 @@
       <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2026-11-15/ep/ep_nso_oper_0420725_nr_2rd_pril.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>
-      <tp:name>ep_nso_oper_0420934_ex_r1_p1_2_q_y_15rd</tp:name>       
-	  <tp:description>Операторы финансовых платформ. Надзорная отчетность, представляемая не позднее 15 рабочих дней (только форма 0420934 за исключением подраздела 1.2 раздела 1). Отчетность на конец квартала, года.</tp:description>      
-      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2026-11-15/ep/ep_nso_oper_0420934_ex_r1_p1_2_q_y_15rd.xsd"/>    
+      <tp:name>ep_nso_oper_0420934_q_y_15rd</tp:name>       
+	  <tp:description>Операторы финансовых платформ. Надзорная отчетность, представляемая не позднее 15 рабочих дней. Отчетность на конец квартала, года.</tp:description>      
+      <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2026-11-15/ep/ep_nso_oper_0420934_q_y_15rd.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
       <tp:name>ep_nso_oper_0420721_q_15rd</tp:name>      

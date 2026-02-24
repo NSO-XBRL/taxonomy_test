@@ -153,8 +153,8 @@
   </xsd:element>
   <xsd:element name="PozicziyaPoSdelkeAxis" id="dim-int_PozicziyaPoSdelkeAxis" type="xbrli:stringItemType" model:fromDate="2018-01-01" substitutionGroup="xbrldt:dimensionItem" model:creationDate="2018-01-01" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="PoLiniyamBiznesaAxis" id="dim-int_PoLiniyamBiznesaAxis" type="xbrli:stringItemType" model:fromDate="2018-01-01" substitutionGroup="xbrldt:dimensionItem" model:creationDate="2018-01-01" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="ID_nerezident_Pryam_InvestiziiAktTypedname" id="dim-int_ID_nerezident_Pryam_InvestiziiAktTypedname" type="xsd:string" model:creationDate="2018-01-01" model:fromDate="2018-01-01" abstract="false" nillable="false"/>
-  <xsd:element name="ID_nerezident_Pryam_InvestiziiPasTypedname" id="dim-int_ID_nerezident_Pryam_InvestiziiPasTypedname" type="xsd:string" model:creationDate="2018-01-01" model:fromDate="2018-01-01" abstract="false" nillable="false"/>
+  <xsd:element name="ID_nerezident_Pryam_InvestiziiAktTypedname" id="dim-int_ID_nerezident_Pryam_InvestiziiAktTypedname" type="xsd:string" model:fromDate="2018-01-01" model:creationDate="2018-01-01" abstract="false" nillable="false"/>
+  <xsd:element name="ID_nerezident_Pryam_InvestiziiPasTypedname" id="dim-int_ID_nerezident_Pryam_InvestiziiPasTypedname" type="xsd:string" model:fromDate="2018-01-01" model:creationDate="2018-01-01" abstract="false" nillable="false"/>
   <xsd:element name="VidNedvizhimushAxis" id="dim-int_VidNedvizhimushAxis" type="xbrli:stringItemType" model:fromDate="2018-01-01" substitutionGroup="xbrldt:dimensionItem" model:creationDate="2018-01-01" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="PoTipamDenezhnyxSredstvAxis" id="dim-int_PoTipamDenezhnyxSredstvAxis" type="xbrli:stringItemType" model:fromDate="2018-01-01" substitutionGroup="xbrldt:dimensionItem" model:creationDate="2018-01-01" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="TipDolgovyxInstrumentovAxis" id="dim-int_TipDolgovyxInstrumentovAxis" type="xbrli:stringItemType" model:fromDate="2018-01-01" substitutionGroup="xbrldt:dimensionItem" model:creationDate="2018-01-01" abstract="true" nillable="true" xbrli:periodType="duration"/>
@@ -165,7 +165,7 @@
   <xsd:element name="ID_Osn_Aff_Taxis" id="dim-int_ID_Osn_Aff_Taxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#dim-int_ID_Osn_Aff_Domain" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ID_mesta_khraneniaTaxis" id="dim-int_ID_mesta_khraneniaTaxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#dim-int_ID_Osn_Aff_Domain" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ID_mesta_khranenia2Taxis" id="dim-int_ID_mesta_khranenia2Taxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#dim-int_ID_Osn_Aff_Domain" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="NaimenovanieSovmestnoKontroliruemogoPredpriyatiya_Typedname" id="dim-int_NaimenovanieSovmestnoKontroliruemogoPredpriyatiya_Typedname" type="xsd:string" model:creationDate="2018-01-01" model:fromDate="2018-01-01" abstract="false" nillable="false"/>
+  <xsd:element name="NaimenovanieSovmestnoKontroliruemogoPredpriyatiya_Typedname" id="dim-int_NaimenovanieSovmestnoKontroliruemogoPredpriyatiya_Typedname" type="xsd:string" model:fromDate="2018-01-01" model:creationDate="2018-01-01" abstract="false" nillable="false"/>
   <xsd:element name="ID_Osn_Aff_Domain" id="dim-int_ID_Osn_Aff_Domain" model:creationDate="2018-01-01" model:fromDate="2018-01-01" abstract="false" nillable="false">
     <xsd:simpleType>
       <xsd:restriction base="xsd:string">
@@ -173,9 +173,9 @@
       </xsd:restriction>
     </xsd:simpleType>
   </xsd:element>
-  <xsd:element name="ID_ISIN_CZBTypedname" id="dim-int_ID_ISIN_CZBTypedname" type="xsd:string" model:creationDate="2018-01-01" model:fromDate="2018-01-01" abstract="false" nillable="false"/>
-  <xsd:element name="ID_mesta_khraneniaTypedname" id="dim-int_ID_mesta_khraneniaTypedname" type="xsd:string" model:creationDate="2018-01-01" model:fromDate="2018-01-01" abstract="false" nillable="false"/>
-  <xsd:element name="ID_mesta_khranenia2Typedname" id="dim-int_ID_mesta_khranenia2Typedname" type="xsd:string" model:creationDate="2018-01-01" model:fromDate="2018-01-01" abstract="false" nillable="false"/>
+  <xsd:element name="ID_ISIN_CZBTypedname" id="dim-int_ID_ISIN_CZBTypedname" type="xsd:string" model:fromDate="2018-01-01" model:creationDate="2018-01-01" abstract="false" nillable="false"/>
+  <xsd:element name="ID_mesta_khraneniaTypedname" id="dim-int_ID_mesta_khraneniaTypedname" type="xsd:string" model:fromDate="2018-01-01" model:creationDate="2018-01-01" abstract="false" nillable="false"/>
+  <xsd:element name="ID_mesta_khranenia2Typedname" id="dim-int_ID_mesta_khranenia2Typedname" type="xsd:string" model:fromDate="2018-01-01" model:creationDate="2018-01-01" abstract="false" nillable="false"/>
   <xsd:element name="Inoe_imushhestvo_Typedname" id="dim-int_Inoe_imushhestvo_Typedname" model:fromDate="2018-01-01" model:creationDate="2018-01-01" abstract="false" nillable="false">
     <xsd:simpleType>
       <xsd:restriction base="xsd:string">
@@ -190,11 +190,11 @@
       </xsd:restriction>
     </xsd:simpleType>
   </xsd:element>
-  <xsd:element name="ID_czhen_bym_Typedname" id="dim-int_ID_czhen_bym_Typedname" type="xsd:string" model:creationDate="2018-01-01" model:fromDate="2018-01-01" abstract="false" nillable="false"/>
-  <xsd:element name="NaimenovanieAssocziirovannogoPredpriyatiyaTypedname" id="dim-int_NaimenovanieAssocziirovannogoPredpriyatiyaTypedname" type="xsd:string" model:creationDate="2018-01-01" model:fromDate="2018-01-01" abstract="false" nillable="false"/>
-  <xsd:element name="NaimenovanieDochernegoPredpriyatiya_Typedname" id="dim-int_NaimenovanieDochernegoPredpriyatiya_Typedname" type="xsd:string" model:creationDate="2018-01-01" model:fromDate="2018-01-01" abstract="false" nillable="false"/>
-  <xsd:element name="DejstvuyushhijDogovorZaklyuchennyjSKompaniejUchreditelemNpf" id="dim-int_DejstvuyushhijDogovorZaklyuchennyjSKompaniejUchreditelemNpf" type="xsd:string" model:creationDate="2018-01-01" model:fromDate="2018-01-01" abstract="false" nillable="false"/>
-  <xsd:element name="NazvanieOtchetnogoSegmenta" id="dim-int_NazvanieOtchetnogoSegmenta" type="xsd:string" model:creationDate="2018-01-01" model:fromDate="2018-01-01" abstract="false" nillable="false"/>
+  <xsd:element name="ID_czhen_bym_Typedname" id="dim-int_ID_czhen_bym_Typedname" type="xsd:string" model:fromDate="2018-01-01" model:creationDate="2018-01-01" abstract="false" nillable="false"/>
+  <xsd:element name="NaimenovanieAssocziirovannogoPredpriyatiyaTypedname" id="dim-int_NaimenovanieAssocziirovannogoPredpriyatiyaTypedname" type="xsd:string" model:fromDate="2018-01-01" model:creationDate="2018-01-01" abstract="false" nillable="false"/>
+  <xsd:element name="NaimenovanieDochernegoPredpriyatiya_Typedname" id="dim-int_NaimenovanieDochernegoPredpriyatiya_Typedname" type="xsd:string" model:fromDate="2018-01-01" model:creationDate="2018-01-01" abstract="false" nillable="false"/>
+  <xsd:element name="DejstvuyushhijDogovorZaklyuchennyjSKompaniejUchreditelemNpf" id="dim-int_DejstvuyushhijDogovorZaklyuchennyjSKompaniejUchreditelemNpf" type="xsd:string" model:fromDate="2018-01-01" model:creationDate="2018-01-01" abstract="false" nillable="false"/>
+  <xsd:element name="NazvanieOtchetnogoSegmenta" id="dim-int_NazvanieOtchetnogoSegmenta" type="xsd:string" model:fromDate="2018-01-01" model:creationDate="2018-01-01" abstract="false" nillable="false"/>
   <xsd:element name="TechnicalAxis" id="dim-int_TechnicalAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ID_akczioneraTypedname" id="dim-int_ID_akczioneraTypedname" type="xsd:string" abstract="false" nillable="false"/>
   <xsd:element name="ID_otchetaTypedname" id="dim-int_ID_otchetaTypedname" type="xsd:string" abstract="false" nillable="false"/>
@@ -1914,7 +1914,6 @@
   <xsd:element name="ProczessKreditovaniyaAxis" id="dim-int_ProczessKreditovaniyaAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="IDKSTaxis" id="dim-int_IDKSTaxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#dim-int_ID_strokiTypedname" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="IDUchGrupTaxis" id="dim-int_IDUchGrupTaxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#dim-int_ID_FL_YULTypedName" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
-  <xsd:element name="PredmOblOtchAxis" id="dim-int_PredmOblOtchAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="AktivPoCZFAPoPerestraxAxis" id="dim-int_AktivPoCZFAPoPerestraxAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="ObyazatelstvoPoCZFAPoPerestraxovaniyuAxis" id="dim-int_ObyazatelstvoPoCZFAPoPerestraxovaniyuAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="RezervPoCZifrFinAktPoPerestrAxis" id="dim-int_RezervPoCZifrFinAktPoPerestrAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
@@ -1923,4 +1922,5 @@
   <xsd:element name="SrokUplPolzCZenDogOPredServRasAxis" id="dim-int_SrokUplPolzCZenDogOPredServRasAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="PrevSumZadolPoDogOPredServRasTrebPredDanVBKIAxis" id="dim-int_PrevSumZadolPoDogOPredServRasTrebPredDanVBKIAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="IDBKITaxis" id="dim-int_IDBKITaxis" type="xbrli:stringItemType" xbrldt:typedDomainRef="#dim-int_ID_YULTypedName" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="SootvTrebovPoPeredInfiODogVBKIAxis" id="dim-int_SootvTrebovPoPeredInfiODogVBKIAxis" type="xbrli:stringItemType" substitutionGroup="xbrldt:dimensionItem" abstract="true" nillable="true" xbrli:periodType="duration"/>
 </xsd:schema>
