@@ -255,11 +255,6 @@
 	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_m_q_22rd.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
-	  <tp:name>ep_nso_purcb_m_q_22rd_mal</tp:name>      
-	  <tp:description>Профессиональные участники рынка ценных бумаг, за исключением имеющих лицензию на осуществление деятельности форекс-дилера (только малые). Отчетность, представляемая в течение 22 рабочих дней после отчетной даты. Отчетность на конец месяца (март, июнь, сентябрь), квартала (кроме 4-го)</tp:description>      
-	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_m_q_22rd_mal.xsd"/>    
-	</tp:entryPoint>
-	<tp:entryPoint>      
 	  <tp:name>ep_nso_purcb_m_q_22rd_ex_mal</tp:name>      
 	  <tp:description>Профессиональные участники рынка ценных бумаг (только крупные и средние), а также имеющие лицензию на осуществление деятельности форекс-дилера, деятельности по инвестиционному консультированию, организаторы торговли и клиринговые организации. Отчетность, представляемая в течение 22 рабочих дней после отчетной даты. Отчетность на конец месяца (март, июнь, сентябрь), квартала (кроме 4-го)</tp:description>      
 	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_m_q_22rd_ex_mal.xsd"/>    
@@ -280,9 +275,9 @@
 	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_m_y_22rd.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
-	  <tp:name>ep_nso_purcb_m_y_22rd_mal</tp:name>      
-	  <tp:description>Профессиональные участники рынка ценных бумаг, за исключением имеющих лицензию на осуществление деятельности форекс-дилера (только малые). Отчетность, представляемая в течение 22 рабочих дней после отчетной даты. Отчетность на конец года, квартала (4 квартал), месяца (декабря)</tp:description>      
-	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_m_y_22rd_mal.xsd"/>    
+	  <tp:name>ep_nso_purcb_q_y_22rd_mal</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг, за исключением имеющих лицензию на осуществление деятельности форекс-дилера (только малые). Отчетность, представляемая в течение 22 рабочих дней после отчетной даты. Отчетность на конец квартала, года</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_q_y_22rd_mal.xsd"/>    
 	</tp:entryPoint>
 	<tp:entryPoint>      
 	  <tp:name>ep_nso_purcb_m_y_22rd_ex_mal</tp:name>      

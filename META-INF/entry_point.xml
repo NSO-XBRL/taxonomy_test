@@ -740,11 +740,11 @@
 </EntryPoint>
 <EntryPoint>
 <NFOType>PURCB</NFOType>
-<ReportType>m_q_22rd_mal</ReportType>
+<ReportType>q_y_22rd_mal</ReportType>
 <ReportPeriodType>q</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_m_q_22rd_mal.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_q_y_22rd_mal.xsd</PathToXsd>
 <NFOTypeRus>Профессиональные участники рынка ценных бумаг, за исключением имеющих лицензию на осуществление деятельности форекс-дилера (только малые)</NFOTypeRus>
-<ReportTypeRus>Отчетность, представляемая в течение 22 рабочих дней после отчетной даты</ReportTypeRus>
+<ReportTypeRus>Отчетность, представляемая в течение 22 рабочих дней после отчетной даты (только форма 0420410)</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец месяца (март, июнь, сентябрь), квартала (кроме 4-го)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
@@ -785,11 +785,11 @@
 </EntryPoint>
 <EntryPoint>
 <NFOType>PURCB</NFOType>
-<ReportType>y_22rd_mal</ReportType>
+<ReportType>q_y_22rd_mal</ReportType>
 <ReportPeriodType>y</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_m_y_22rd_mal.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_q_y_22rd_mal.xsd</PathToXsd>
 <NFOTypeRus>Профессиональные участники рынка ценных бумаг, за исключением имеющих лицензию на осуществление деятельности форекс-дилера (только малые)</NFOTypeRus>
-<ReportTypeRus>Отчетность, представляемая в течение 22 рабочих дней после отчетной даты</ReportTypeRus>
+<ReportTypeRus>Отчетность, представляемая в течение 22 рабочих дней после отчетной даты (только форма 0420410)</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
