@@ -28,7 +28,7 @@
         <link:usedOn>gen:link</link:usedOn>
       </link:roleType>
       <link:roleType roleURI="http://www.cbr.ru/xbrl/nso/uk/rep/2026-11-15/tab/sr_sved_otch_org_inf_ob_otch" id="sr_sved_otch_org_inf_ob_otch">
-        <link:definition>Сопроводительная информация к отчетности. Раздел I. Сведения об отсутствии данных по формам отчетности и (или) о представлении исправленной отчетности</link:definition>
+        <link:definition>Сопроводительная информация к отчетности. Раздел I. Сведения об отсутствии данных по формам отчетности</link:definition>
         <link:usedOn>link:definitionLink</link:usedOn>
         <link:usedOn>gen:link</link:usedOn>
       </link:roleType>
