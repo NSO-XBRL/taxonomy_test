@@ -5185,13 +5185,6 @@
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OKOPF_7_04_00_Member" xlink:to="label_OKOPF_7_04_00_Member"/>
     <link:label xlink:type="resource" xlink:label="label_OKOPF_7_04_00_Member_4" xlink:role="http://www.cbr.ru/2018/role/TechnicalLabel" xml:lang="ru" id="label_OKOPF_7_04_00_Member_4">70400</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OKOPF_7_04_00_Member" xlink:to="label_OKOPF_7_04_00_Member_4"/>
-    <link:loc xlink:type="locator" xlink:href="mem-int.xsd#mem-int_OKOPF_7_04_01_Member" xlink:label="OKOPF_7_04_01_Member" xlink:title="OKOPF_7_04_01_Member"/>
-    <link:label xlink:type="resource" xlink:label="label_OKOPF_7_04_01_Member_3" xlink:role="http://www.cbr.ru/xbrl/udr/dom/Alternative-label-mem" xlink:title="label_OKOPF_7_04_01_Member" xml:lang="ru" id="label_OKOPF_7_04_01_Member_2">7 04 01 Благотворительные фонды</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OKOPF_7_04_01_Member" xlink:to="label_OKOPF_7_04_01_Member_3" xlink:title="label: OKOPF_7_04_01_Member to label_OKOPF_7_04_01_Member"/>
-    <link:label xlink:type="resource" xlink:label="label_OKOPF_7_04_01_Member" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="ru" id="label_OKOPF_7_04_01_Member_3">70401</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OKOPF_7_04_01_Member" xlink:to="label_OKOPF_7_04_01_Member"/>
-    <link:label xlink:type="resource" xlink:label="label_OKOPF_7_04_01_Member_4" xlink:role="http://www.cbr.ru/2018/role/TechnicalLabel" xml:lang="ru" id="label_OKOPF_7_04_01_Member_4">70401</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OKOPF_7_04_01_Member" xlink:to="label_OKOPF_7_04_01_Member_4"/>
     <link:loc xlink:type="locator" xlink:href="mem-int.xsd#mem-int_OKOPF_7_04_02_Member" xlink:label="OKOPF_7_04_02_Member" xlink:title="OKOPF_7_04_02_Member"/>
     <link:label xlink:type="resource" xlink:label="label_OKOPF_7_04_02_Member_3" xlink:role="http://www.cbr.ru/xbrl/udr/dom/Alternative-label-mem" xlink:title="label_OKOPF_7_04_02_Member" xml:lang="ru" id="label_OKOPF_7_04_02_Member_2">7 04 02 Негосударственные пенсионные фонды</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OKOPF_7_04_02_Member" xlink:to="label_OKOPF_7_04_02_Member_3" xlink:title="label: OKOPF_7_04_02_Member to label_OKOPF_7_04_02_Member"/>
@@ -5199,13 +5192,6 @@
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OKOPF_7_04_02_Member" xlink:to="label_OKOPF_7_04_02_Member"/>
     <link:label xlink:type="resource" xlink:label="label_OKOPF_7_04_02_Member_4" xlink:role="http://www.cbr.ru/2018/role/TechnicalLabel" xml:lang="ru" id="label_OKOPF_7_04_02_Member_4">70402</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OKOPF_7_04_02_Member" xlink:to="label_OKOPF_7_04_02_Member_4"/>
-    <link:loc xlink:type="locator" xlink:href="mem-int.xsd#mem-int_OKOPF_7_04_03_Member" xlink:label="OKOPF_7_04_03_Member" xlink:title="OKOPF_7_04_03_Member"/>
-    <link:label xlink:type="resource" xlink:label="label_OKOPF_7_04_03_Member_3" xlink:role="http://www.cbr.ru/xbrl/udr/dom/Alternative-label-mem" xlink:title="label_OKOPF_7_04_03_Member" xml:lang="ru" id="label_OKOPF_7_04_03_Member_2">7 04 03 Общественные фонды</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OKOPF_7_04_03_Member" xlink:to="label_OKOPF_7_04_03_Member_3" xlink:title="label: OKOPF_7_04_03_Member to label_OKOPF_7_04_03_Member"/>
-    <link:label xlink:type="resource" xlink:label="label_OKOPF_7_04_03_Member" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="ru" id="label_OKOPF_7_04_03_Member_3">70403</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OKOPF_7_04_03_Member" xlink:to="label_OKOPF_7_04_03_Member"/>
-    <link:label xlink:type="resource" xlink:label="label_OKOPF_7_04_03_Member_4" xlink:role="http://www.cbr.ru/2018/role/TechnicalLabel" xml:lang="ru" id="label_OKOPF_7_04_03_Member_4">70403</link:label>
-    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OKOPF_7_04_03_Member" xlink:to="label_OKOPF_7_04_03_Member_4"/>
     <link:loc xlink:type="locator" xlink:href="mem-int.xsd#mem-int_OKOPF_7_04_04_Member" xlink:label="OKOPF_7_04_04_Member" xlink:title="OKOPF_7_04_04_Member"/>
     <link:label xlink:type="resource" xlink:label="label_OKOPF_7_04_04_Member_3" xlink:role="http://www.cbr.ru/xbrl/udr/dom/Alternative-label-mem" xlink:title="label_OKOPF_7_04_04_Member" xml:lang="ru" id="label_OKOPF_7_04_04_Member_2">7 04 04 Экологические фонды</link:label>
     <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OKOPF_7_04_04_Member" xlink:to="label_OKOPF_7_04_04_Member_3" xlink:title="label: OKOPF_7_04_04_Member to label_OKOPF_7_04_04_Member"/>
