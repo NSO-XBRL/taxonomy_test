@@ -5758,4 +5758,8 @@
   <xsd:element name="CZFADostFLNeKvalInvBezOgr_RossYUL_InLiczMember" id="mem-int_CZFADostFLNeKvalInvBezOgr_RossYUL_InLiczMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="DogInfOKotVklyuchVSostKredIstMember" id="mem-int_DogInfOKotVklyuchVSostKredIstMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
   <xsd:element name="OKUD0420960R1Member" id="mem-int_OKUD0420960R1Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="OKOPF_7_04_05_Member" id="mem-int_OKOPF_7_04_05_Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="OKOPF_7_04_10_Member" id="mem-int_OKOPF_7_04_10_Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="OKOPF_7_04_11_Member" id="mem-int_OKOPF_7_04_11_Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
+  <xsd:element name="OKOPF_7_04_12_Member" id="mem-int_OKOPF_7_04_12_Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" abstract="true" nillable="true" xbrli:periodType="duration"/>
 </xsd:schema>
