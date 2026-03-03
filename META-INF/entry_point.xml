@@ -776,6 +776,15 @@
 </EntryPoint>
 <EntryPoint>
 <NFOType>PURCB</NFOType>
+<ReportType>y_20rd</ReportType>
+<ReportPeriodType>y</ReportPeriodType>
+<PathToXsd>../www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_q_y_20rd.xsd</PathToXsd>
+<NFOTypeRus>Профессиональные участники рынка ценных бумаг</NFOTypeRus>
+<ReportTypeRus>Отчетность, представляемая в течение 20 рабочих дней после отчетной даты (только форма 0420453)</ReportTypeRus>
+<ReportPeriodTypeRus>Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</ReportPeriodTypeRus>
+</EntryPoint>
+<EntryPoint>
+<NFOType>PURCB</NFOType>
 <ReportType>y_22rd</ReportType>
 <ReportPeriodType>y</ReportPeriodType>
 <PathToXsd>../www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_m_y_22rd.xsd</PathToXsd>
@@ -1838,20 +1847,20 @@
 </EntryPoint>
 <EntryPoint>
 <NFOType>OSR</NFOType>
-<ReportType>15rd</ReportType>
+<ReportType>10rd</ReportType>
 <ReportPeriodType>q</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/osr/rep/2026-11-15/ep/ep_nso_osr_q_y_15rd.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/osr/rep/2026-11-15/ep/ep_nso_osr_q_y_10rd.xsd</PathToXsd>
 <NFOTypeRus>Операторы сервиса рассрочки</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 15 рабочих дней</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 10 рабочих дней</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец квартала (кроме 4-го)</ReportPeriodTypeRus>
 </EntryPoint>
 <EntryPoint>
 <NFOType>OSR</NFOType>
-<ReportType>15rd</ReportType>
+<ReportType>10rd</ReportType>
 <ReportPeriodType>y</ReportPeriodType>
-<PathToXsd>../www.cbr.ru/xbrl/nso/osr/rep/2026-11-15/ep/ep_nso_osr_q_y_15rd.xsd</PathToXsd>
+<PathToXsd>../www.cbr.ru/xbrl/nso/osr/rep/2026-11-15/ep/ep_nso_osr_q_y_10rd.xsd</PathToXsd>
 <NFOTypeRus>Операторы сервиса рассрочки</NFOTypeRus>
-<ReportTypeRus>Надзорная отчетность, представляемая в течение 15 рабочих дней</ReportTypeRus>
+<ReportTypeRus>Надзорная отчетность, представляемая в течение 10 рабочих дней</ReportTypeRus>
 <ReportPeriodTypeRus>Отчетность на конец года, квартала (4-го)</ReportPeriodTypeRus>
 </EntryPoint>
 </ArrayOfEntryPoint>

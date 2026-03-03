@@ -319,6 +319,11 @@
 	  <tp:description>Профессиональные участники рынка ценных бумаг, организаторы торговли и клиринговые организации. Надзорная отчетность, представляемая в течение 67 рабочих дней. Отчетность на конец года</tp:description>      
 	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_y_67rd.xsd"/>    
 	</tp:entryPoint>
+	<tp:entryPoint>      
+	  <tp:name>ep_nso_purcb_q_y_20rd</tp:name>      
+	  <tp:description>Профессиональные участники рынка ценных бумаг. Отчетность, представляемая в течение 20 рабочих дней после отчетной даты (только форма 0420453). Отчетность на конец года, квартала (4 квартал), месяца (декабрь)</tp:description>      
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/purcb/rep/2026-11-15/ep/ep_nso_purcb_q_y_20rd.xsd"/>    
+	</tp:entryPoint>
 	<tp:entryPoint>
       <tp:name>support_ep_all_nso_purcb</tp:name>
       <tp:description>Справочно - все раскрытия НСО ПУРЦБ</tp:description>
@@ -840,9 +845,9 @@
       <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/operatory/rep/2026-11-15/ep/support_ep_all_nso_operatory.xsd"/>
 	</tp:entryPoint>
 	<tp:entryPoint>
-	  <tp:name>ep_nso_osr_q_y_15rd</tp:name>
-	  <tp:description>Операторы сервиса рассрочки. Надзорная отчетность, представляемая в течение 15 рабочих дней. Отчетность на конец квартала, года.</tp:description>
-	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/osr/rep/2026-11-15/ep/ep_nso_osr_q_y_15rd.xsd"/>
+	  <tp:name>ep_nso_osr_q_y_10rd</tp:name>
+	  <tp:description>Операторы сервиса рассрочки. Надзорная отчетность, представляемая в течение 10 рабочих дней. Отчетность на конец квартала, года.</tp:description>
+	  <tp:entryPointDocument href="http://www.cbr.ru/xbrl/nso/osr/rep/2026-11-15/ep/ep_nso_osr_q_y_10rd.xsd"/>
 	</tp:entryPoint>
 	<tp:entryPoint>
 	  <tp:name>support_ep_all_nso_osr</tp:name>
